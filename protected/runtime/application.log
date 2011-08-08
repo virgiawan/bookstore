@@ -1,0 +1,1921 @@
+2011/08/08 06:04:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "add".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('add')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:05:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "add".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('add')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:06:43 [error] [exception.CException] exception 'CException' with message 'Alias "application.modules.controllers.admin.AddBook" is invalid. Make sure it points to an existing PHP file.' in /opt/lampp/htdocs/bookstore/framework/YiiBase.php:321
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): YiiBase::import('application.mod...', true)
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): YiiBase::createComponent(Array, Object(AdminController), 'add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): CController->createActionFromMap(Array, 'add', 'add')
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): CController->createAction('add')
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#8 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:06:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "addbook".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('addbook')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('addbook')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/addb...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/addbook
+2011/08/08 06:06:54 [error] [exception.CException] exception 'CException' with message 'Alias "application.modules.controllers.admin.AddBook" is invalid. Make sure it points to an existing PHP file.' in /opt/lampp/htdocs/bookstore/framework/YiiBase.php:321
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): YiiBase::import('application.mod...', true)
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): YiiBase::createComponent(Array, Object(AdminController), 'add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): CController->createActionFromMap(Array, 'add', 'add')
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): CController->createAction('add')
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#8 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:07:59 [error] [exception.CException] exception 'CException' with message 'Alias "application.modules.controllers.admin.AddBookAction" is invalid. Make sure it points to an existing PHP file.' in /opt/lampp/htdocs/bookstore/framework/YiiBase.php:321
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): YiiBase::import('application.mod...', true)
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): YiiBase::createComponent(Array, Object(AdminController), 'add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): CController->createActionFromMap(Array, 'add', 'add')
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): CController->createAction('add')
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#8 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:08:02 [error] [exception.CException] exception 'CException' with message 'Alias "application.modules.controllers.admin.AddBookAction" is invalid. Make sure it points to an existing PHP file.' in /opt/lampp/htdocs/bookstore/framework/YiiBase.php:321
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): YiiBase::import('application.mod...', true)
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): YiiBase::createComponent(Array, Object(AdminController), 'add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): CController->createActionFromMap(Array, 'add', 'add')
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): CController->createAction('add')
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#8 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:08:31 [error] [exception.CException] exception 'CException' with message 'Alias "application.modules.controllers.admin.AddBookAction" is invalid. Make sure it points to an existing PHP file.' in /opt/lampp/htdocs/bookstore/framework/YiiBase.php:321
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): YiiBase::import('application.mod...', true)
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): YiiBase::createComponent(Array, Object(AdminController), 'add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): CController->createActionFromMap(Array, 'add', 'add')
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): CController->createAction('add')
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#8 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:09:30 [error] [exception.CException] exception 'CException' with message 'Alias "application.modules.controllers.admin.AddBookAction" is invalid. Make sure it points to an existing PHP file.' in /opt/lampp/htdocs/bookstore/framework/YiiBase.php:321
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): YiiBase::import('application.mod...', true)
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): YiiBase::createComponent(Array, Object(AdminController), 'add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): CController->createActionFromMap(Array, 'add', 'add')
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): CController->createAction('add')
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#8 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:10:10 [error] [exception.CException] exception 'CException' with message 'Alias "controllers.admin.AddBookAction" is invalid. Make sure it points to an existing directory or file.' in /opt/lampp/htdocs/bookstore/framework/YiiBase.php:346
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): YiiBase::import('controllers.adm...', true)
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): YiiBase::createComponent(Array, Object(AdminController), 'add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): CController->createActionFromMap(Array, 'add', 'add')
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): CController->createAction('add')
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#8 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:10:53 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AddBookAction" is invalid. Make sure it points to an existing directory or file.' in /opt/lampp/htdocs/bookstore/framework/YiiBase.php:346
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): YiiBase::import('admin.AddBookAc...', true)
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): YiiBase::createComponent(Array, Object(AdminController), 'add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): CController->createActionFromMap(Array, 'add', 'add')
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): CController->createAction('add')
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#8 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:10:56 [error] [exception.CException] exception 'CException' with message 'Alias "admin.AddBookAction" is invalid. Make sure it points to an existing directory or file.' in /opt/lampp/htdocs/bookstore/framework/YiiBase.php:346
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): YiiBase::import('admin.AddBookAc...', true)
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): YiiBase::createComponent(Array, Object(AdminController), 'add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): CController->createActionFromMap(Array, 'add', 'add')
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): CController->createAction('add')
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#8 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "addbook".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('addbook')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('addbook')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/addb...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/addbook
+2011/08/08 06:11:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "addbook".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('addbook')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('addbook')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/addb...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/addbook
+2011/08/08 06:13:13 [error] [php] include(AddBookAction.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/opt/lampp/htdocs/bookstore/framework/YiiBase.php:421)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): import()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): createComponent()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): AdminController->createActionFromMap()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): AdminController->createAction()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 06:13:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "book/Adminadd".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Adminadd')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/index.php?r=book/Adminadd
+2011/08/08 06:13:29 [error] [php] include(AddBookAction.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/opt/lampp/htdocs/bookstore/framework/YiiBase.php:421)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): import()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): createComponent()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): AdminController->createActionFromMap()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): AdminController->createAction()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 06:17:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/
+2011/08/08 06:17:37 [error] [php] include(AddBookAction.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/opt/lampp/htdocs/bookstore/framework/YiiBase.php:421)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): import()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): createComponent()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): AdminController->createActionFromMap()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): AdminController->createAction()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 06:18:19 [error] [exception.CException] exception 'CException' with message 'Alias "controllers.admin.AddBookAction" is invalid. Make sure it points to an existing directory or file.' in /opt/lampp/htdocs/bookstore/framework/YiiBase.php:346
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): YiiBase::import('controllers.adm...', true)
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): YiiBase::createComponent(Array, Object(AdminController), 'add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): CController->createActionFromMap(Array, 'add', 'add')
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): CController->createAction('add')
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#8 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:28:53 [error] [exception.CException] exception 'CException' with message 'AddBookAction and its behaviors do not have a method or closure named "createUrl".' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:269
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(8): CComponent->__call('createUrl', Array)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(8): AddBookAction->createUrl('add')
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:29:22 [error] [exception.CException] exception 'CException' with message 'AddBookAction and its behaviors do not have a method or closure named "render".' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:269
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CComponent->__call('render', Array)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): AddBookAction->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:29:25 [error] [exception.CException] exception 'CException' with message 'AddBookAction and its behaviors do not have a method or closure named "render".' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:269
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CComponent->__call('render', Array)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): AddBookAction->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:29:49 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:29:50 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:29:50 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:29:51 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:30:41 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:30:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:30:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:30:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:30:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:30:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:30:43 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:30:43 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:30:45 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:31:04 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('admin/addbookvi...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('admin/addbookvi...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:31:05 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('admin/addbookvi...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('admin/addbookvi...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:31:05 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('admin/addbookvi...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('admin/addbookvi...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:31:05 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('admin/addbookvi...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('admin/addbookvi...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:31:05 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('admin/addbookvi...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('admin/addbookvi...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:31:13 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "//admin/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('//admin/addbook...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('//admin/addbook...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:31:14 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "//admin/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('//admin/addbook...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('//admin/addbook...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:31:14 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "//admin/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('//admin/addbook...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('//admin/addbook...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:31:14 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "//admin/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('//admin/addbook...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('//admin/addbook...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:32:41 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "application.modules.book.views.admin.addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('application.mod...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('application.mod...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:32:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "application.modules.book.views.admin.addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('application.mod...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('application.mod...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:32:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "application.modules.book.views.admin.addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('application.mod...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('application.mod...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:32:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "application.modules.book.views.admin.addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('application.mod...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('application.mod...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:32:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "application.modules.book.views.admin.addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('application.mod...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('application.mod...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:32:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "application.modules.book.views.admin.addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('application.mod...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('application.mod...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:32:43 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "application.modules.book.views.admin.addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('application.mod...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('application.mod...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:32:43 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "application.modules.book.views.admin.addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('application.mod...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('application.mod...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:35:34 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:35:37 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:35:49 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "//views/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('//views/addbook...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('//views/addbook...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:35:50 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "//views/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('//views/addbook...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('//views/addbook...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:35:50 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "//views/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('//views/addbook...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('//views/addbook...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:35:50 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "//views/addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('//views/addbook...', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('//views/addbook...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:36:01 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:36:01 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:36:01 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 06:40:32 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "addbookview".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:875
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(13): CController->render('addbookview', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+2011/08/08 07:10:25 [error] [php] Undefined variable: action (/opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php:5)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): AdminController->renderPartial()
+#2 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(22): AdminController->render()
+#3 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): AddBookAction->runWithParams()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php (5)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (22)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 07:50:45 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 07:50:45 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:06:21 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:06:21 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:06:21 [error] [exception.CException] exception 'CException' with message 'AddBookAction and its behaviors do not have a method or closure named "getErrors".' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:269
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(24): CComponent->__call('getErrors', Array)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(24): AddBookAction->getErrors()
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/add
+2011/08/08 08:06:39 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:06:39 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:06:39 [error] [exception.CException] exception 'CException' with message 'Property "Book.p_publisher" is not defined.' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:131
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/db/ar/CActiveRecord.php(129): CComponent->__get('p_publisher')
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php(14): CActiveRecord->__get('p_publisher')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#5 /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php(9): CController->renderPartial('_formbook', Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#9 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('addbookview', Array, true)
+#10 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(29): CController->render('addbookview', Array)
+#11 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#12 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#13 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#14 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#15 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#16 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/add')
+#17 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#19 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/add
+2011/08/08 08:08:04 [error] [php] Object of class ErrorDisplayWidget could not be converted to string (/opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php:1)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php(9): AdminController->renderPartial()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): AdminController->renderInternal()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): AdminController->renderPartial()
+#6 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(29): AdminController->render()
+#7 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): AddBookAction->runWithParams()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#11 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#12 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#13 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php (1)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php (9)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (29)
+2011/08/08 08:08:42 [error] [php] Object of class ErrorDisplayWidget could not be converted to string (/opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php:1)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php(9): AdminController->renderPartial()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): AdminController->renderInternal()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): AdminController->renderPartial()
+#6 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(29): AdminController->render()
+#7 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): AddBookAction->runWithParams()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#11 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#12 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#13 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php (1)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php (9)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (29)
+2011/08/08 08:08:43 [error] [php] Object of class ErrorDisplayWidget could not be converted to string (/opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php:1)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php(9): AdminController->renderPartial()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): AdminController->renderInternal()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): AdminController->renderPartial()
+#6 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(29): AdminController->render()
+#7 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): AddBookAction->runWithParams()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#11 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#12 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#13 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php (1)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php (9)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (29)
+2011/08/08 08:08:43 [error] [php] Object of class ErrorDisplayWidget could not be converted to string (/opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php:1)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php(9): AdminController->renderPartial()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): AdminController->renderInternal()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): AdminController->renderPartial()
+#6 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(29): AdminController->render()
+#7 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): AddBookAction->runWithParams()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#11 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#12 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#13 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php (1)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php (9)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (29)
+2011/08/08 08:08:43 [error] [php] Object of class ErrorDisplayWidget could not be converted to string (/opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php:1)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php(9): AdminController->renderPartial()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): AdminController->renderInternal()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): AdminController->renderPartial()
+#6 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(29): AdminController->render()
+#7 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): AddBookAction->runWithParams()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#11 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#12 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#13 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php (1)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php (9)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (29)
+2011/08/08 08:08:46 [error] [php] Object of class ErrorDisplayWidget could not be converted to string (/opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php:1)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php(9): AdminController->renderPartial()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): AdminController->renderInternal()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): AdminController->renderPartial()
+#6 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(29): AdminController->render()
+#7 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): AddBookAction->runWithParams()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#11 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#12 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#13 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php (1)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php (9)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (29)
+2011/08/08 08:09:26 [error] [php] Object of class ErrorDisplayWidget could not be converted to string (/opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php:1)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php(9): AdminController->renderPartial()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): AdminController->renderInternal()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): AdminController->renderPartial()
+#6 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(29): AdminController->render()
+#7 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): AddBookAction->runWithParams()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#11 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#12 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#13 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#14 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/Admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/_formbook.php (1)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/addbookview.php (9)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (29)
+2011/08/08 08:10:30 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:10:30 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:10:32 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:10:32 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:10:54 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:10:54 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:10:56 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:10:56 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:10:58 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:10:58 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:11:58 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:11:58 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:12:00 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:12:00 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/
+2011/08/08 08:12:13 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:12:13 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:12:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/admin
+2011/08/08 08:14:09 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:14:09 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:14:25 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:14:25 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:15:09 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:15:09 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:15:11 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:15:11 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:15:21 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:15:21 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:16:40 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:16:40 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:16:42 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:16:42 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:18:39 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:18:39 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:18:44 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:18:44 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:20:03 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:20:03 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:20:16 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:20:16 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:20:39 [warning] [application] Failed to set unsafe attribute "b_decription" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:20:39 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:21:12 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:21:17 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:21:24 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:21:30 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:25:08 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:25:14 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:26:33 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:26:35 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:26:38 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:27:16 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:27:18 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:27:19 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:27:23 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:28:36 [warning] [application] Failed to set unsafe attribute "Book" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:29:49 [error] [php] Undefined index: b_image (/opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php:14)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:30:15 [error] [php] Undefined index: Book[b_image] (/opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php:14)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:30:18 [error] [php] Undefined index: Book[b_image] (/opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php:14)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:30:21 [error] [php] Undefined index: Book[b_image] (/opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php:14)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:30:47 [error] [php] Undefined index: Book[b_image] (/opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php:14)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/add
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 08:32:43 [error] [exception.CException] exception 'CException' with message 'Property "Book.picture" is not defined.' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:174
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/db/ar/CActiveRecord.php(145): CComponent->__set('picture', Object(CUploadedFile))
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(16): CActiveRecord->__set('picture', Object(CUploadedFile))
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/add
+2011/08/08 08:51:30 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "user".' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:269
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/ListBookAction.php(6): CComponent->__call('user', Array)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/ListBookAction.php(6): CWebApplication->user()
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): ListBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(ListBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(ListBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('list')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/list')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/list
+2011/08/08 08:52:02 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "user".' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:269
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/ListBookAction.php(6): CComponent->__call('user', Array)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/ListBookAction.php(6): CWebApplication->user()
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): ListBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(ListBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(ListBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('list')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/list')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/list
+2011/08/08 08:52:03 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "user".' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:269
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/ListBookAction.php(6): CComponent->__call('user', Array)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/ListBookAction.php(6): CWebApplication->user()
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): ListBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(ListBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(ListBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('list')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/list')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/list
+2011/08/08 08:52:03 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "user".' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:269
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/ListBookAction.php(6): CComponent->__call('user', Array)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/ListBookAction.php(6): CWebApplication->user()
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): ListBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(ListBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(ListBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('list')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/list')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/list
+2011/08/08 08:52:53 [error] [php] Undefined variable: msg (/opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/listbookview.php:2)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): AdminController->renderPartial()
+#2 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/ListBookAction.php(17): AdminController->render()
+#3 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): ListBookAction->run()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): ListBookAction->runWithParams()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/list
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/listbookview.php (2)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/ListBookAction.php (17)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 09:08:42 [error] [php] Undefined variable: length (/opt/lampp/htdocs/bookstore/protected/components/views/pricedisplayview.php:2)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/widgets/CWidget.php(242): PriceDisplayWidget->renderFile()
+#1 /opt/lampp/htdocs/bookstore/protected/components/PriceDisplayWidget.php(8): PriceDisplayWidget->render()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(166): PriceDisplayWidget->run()
+#3 /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/listbookview.php(23): AdminController->widget()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): AdminController->renderInternal()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): AdminController->renderFile()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): AdminController->renderPartial()
+#8 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/ListBookAction.php(17): AdminController->render()
+#9 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): ListBookAction->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): ListBookAction->runWithParams()
+#11 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#12 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#13 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#14 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#15 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/list
+in /opt/lampp/htdocs/bookstore/protected/components/views/pricedisplayview.php (2)
+in /opt/lampp/htdocs/bookstore/protected/components/PriceDisplayWidget.php (8)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/admin/listbookview.php (23)
+2011/08/08 09:38:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('delete')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('delete')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/dele...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/delete&bid=3
+2011/08/08 09:38:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('update')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('update')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/Admin/upda...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/Admin/update&bid=3
+2011/08/08 09:38:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('delete')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('delete')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/dele...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/delete&bid=3
+2011/08/08 09:38:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('update')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('update')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/upda...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/update&bid=3
+2011/08/08 09:50:44 [error] [exception.CException] exception 'CException' with message 'AddBookAction and its behaviors do not have a method or closure named "createUrl".' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:269
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(21): CComponent->__call('createUrl', Array)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(21): AddBookAction->createUrl('admin/list')
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/add
+2011/08/08 09:52:29 [error] [exception.CException] exception 'CException' with message 'AddBookAction and its behaviors do not have a method or closure named "redirect".' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:269
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(21): CComponent->__call('redirect', Array)
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php(21): AddBookAction->redirect('/bookstore/inde...')
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): AddBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(AddBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(AddBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('add')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/add')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/add
+2011/08/08 09:56:26 [error] [php] Undefined index: id (/opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php:6)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update&bid=7
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (6)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:06:16 [error] [php] urlencode() expects parameter 1 to be string, object given (/opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php:426)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(330): CUrlManager->createPathInfo()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(294): CUrlManager->createUrlDefault()
+#2 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(522): CUrlManager->createUrl()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(964): CWebApplication->createUrl()
+#4 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php(17): AdminController->createUrl()
+#5 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): UpdateBookAction->run()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): UpdateBookAction->runWithParams()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#11 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update&bid=7
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (17)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:07:16 [error] [php] urlencode() expects parameter 1 to be string, object given (/opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php:426)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(330): CUrlManager->createPathInfo()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(294): CUrlManager->createUrlDefault()
+#2 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(522): CUrlManager->createUrl()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(964): CWebApplication->createUrl()
+#4 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php(17): AdminController->createUrl()
+#5 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): UpdateBookAction->run()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): UpdateBookAction->runWithParams()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#11 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update&bid=7
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (17)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:07:57 [error] [php] urlencode() expects parameter 1 to be string, object given (/opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php:426)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(330): CUrlManager->createPathInfo()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(294): CUrlManager->createUrlDefault()
+#2 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(522): CUrlManager->createUrl()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(964): CWebApplication->createUrl()
+#4 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php(17): AdminController->createUrl()
+#5 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): UpdateBookAction->run()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): UpdateBookAction->runWithParams()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#11 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update&bid=7
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (17)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:08:00 [error] [php] urlencode() expects parameter 1 to be string, object given (/opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php:426)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(330): CUrlManager->createPathInfo()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(294): CUrlManager->createUrlDefault()
+#2 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(522): CUrlManager->createUrl()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(964): CWebApplication->createUrl()
+#4 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php(17): AdminController->createUrl()
+#5 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): UpdateBookAction->run()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): UpdateBookAction->runWithParams()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#11 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update&bid=7
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (17)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:08:02 [error] [php] urlencode() expects parameter 1 to be string, object given (/opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php:426)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(330): CUrlManager->createPathInfo()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(294): CUrlManager->createUrlDefault()
+#2 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(522): CUrlManager->createUrl()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(964): CWebApplication->createUrl()
+#4 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php(17): AdminController->createUrl()
+#5 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): UpdateBookAction->run()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): UpdateBookAction->runWithParams()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#11 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update&bid=7
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (17)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:08:20 [error] [php] urlencode() expects parameter 1 to be string, object given (/opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php:426)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(330): CUrlManager->createPathInfo()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(294): CUrlManager->createUrlDefault()
+#2 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(522): CUrlManager->createUrl()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(964): CWebApplication->createUrl()
+#4 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php(17): AdminController->createUrl()
+#5 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): UpdateBookAction->run()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): UpdateBookAction->runWithParams()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#11 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update&bid=7
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (17)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:08:20 [error] [php] urlencode() expects parameter 1 to be string, object given (/opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php:426)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(330): CUrlManager->createPathInfo()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(294): CUrlManager->createUrlDefault()
+#2 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(522): CUrlManager->createUrl()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(964): CWebApplication->createUrl()
+#4 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php(17): AdminController->createUrl()
+#5 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): UpdateBookAction->run()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): UpdateBookAction->runWithParams()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#11 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update&bid=7
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (17)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:08:21 [error] [php] urlencode() expects parameter 1 to be string, object given (/opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php:426)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(330): CUrlManager->createPathInfo()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(294): CUrlManager->createUrlDefault()
+#2 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(522): CUrlManager->createUrl()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(964): CWebApplication->createUrl()
+#4 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php(17): AdminController->createUrl()
+#5 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): UpdateBookAction->run()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): UpdateBookAction->runWithParams()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#11 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update&bid=7
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (17)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:09:44 [error] [php] urlencode() expects parameter 1 to be string, object given (/opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php:426)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(330): CUrlManager->createPathInfo()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CUrlManager.php(294): CUrlManager->createUrlDefault()
+#2 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(522): CUrlManager->createUrl()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(964): CWebApplication->createUrl()
+#4 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php(16): AdminController->createUrl()
+#5 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): UpdateBookAction->run()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): UpdateBookAction->runWithParams()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#11 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update&bid=7
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (16)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:24:38 [error] [php] Undefined index: bid (/opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php:11)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (11)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:30:57 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:30:57 [error] [php] Missing argument 1 for CModel::getError(), called in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php on line 19 and defined (/opt/lampp/htdocs/bookstore/framework/base/CModel.php:369)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): UpdateBookAction->runWithParams()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#5 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (19)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:31:27 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:31:37 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:32:56 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:33:10 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:33:17 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:33:28 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:35:05 [error] [php] Undefined index: bid (/opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php:26)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/update
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/UpdateBookAction.php (26)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:39:49 [error] [exception.CException] exception 'CException' with message 'Property "Book.title" is not defined.' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:131
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/db/ar/CActiveRecord.php(129): CComponent->__get('title')
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/DeleteBookAction.php(15): CActiveRecord->__get('title')
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): DeleteBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(DeleteBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(DeleteBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('delete')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/dele...')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/delete&bid=7
+2011/08/08 10:40:14 [error] [exception.CException] exception 'CException' with message 'Property "Book.title" is not defined.' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:131
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/db/ar/CActiveRecord.php(129): CComponent->__get('title')
+#1 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/DeleteBookAction.php(14): CActiveRecord->__get('title')
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): DeleteBookAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(DeleteBookAction))
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(DeleteBookAction), Array)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('delete')
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/dele...')
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/delete&bid=3
+2011/08/08 10:43:45 [error] [php] Undefined variable: value (/opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/DeleteBookAction.php:15)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/delete&bid=4
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/DeleteBookAction.php (15)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:45:35 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:45:44 [error] [php] unlink(/bookstore/imgbook/resize/Edensor_sampul.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory (/opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/DeleteBookAction.php:15)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): DeleteBookAction->runWithParams()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): AdminController->runAction()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): AdminController->runActionWithFilters()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): AdminController->run()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#5 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/admin/delete&bid=8
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/DeleteBookAction.php (15)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:48:06 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:51:31 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:53:59 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:54:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ad".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('ad')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('ad')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/admin/ad')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/admin/ad
+2011/08/08 10:55:07 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 10:56:43 [warning] [application] Failed to set unsafe attribute "bid" of "Book".
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/admin/AddBookAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 11:04:10 [error] [exception.CException] exception 'CException' with message 'Alias "application.modules.book.controller.default.NewBookAction" is invalid. Make sure it points to an existing PHP file.' in /opt/lampp/htdocs/bookstore/framework/YiiBase.php:321
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): YiiBase::import('application.mod...', true)
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): YiiBase::createComponent(Array, Object(DefaultController), 'new')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): CController->createActionFromMap(Array, 'new', 'new')
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): CController->createAction('new')
+#4 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('new')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/ne...')
+#6 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#8 {main} REQUEST_URI=/bookstore/index.php?r=book/default/new
+2011/08/08 11:05:10 [error] [php] include(CActions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/opt/lampp/htdocs/bookstore/framework/YiiBase.php:421)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php(3): spl_autoload_call()
+#1 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(319): require()
+#2 /opt/lampp/htdocs/bookstore/framework/YiiBase.php(201): import()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(434): createComponent()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(410): DefaultController->createActionFromMap()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(251): DefaultController->createAction()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): DefaultController->run()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/default/new
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php (3)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 11:47:54 [error] [exception.CException] exception 'CException' with message 'Property "CHttpRequest.basePath" is not defined.' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:131
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/views/layouts/index.php(5): CComponent->__get('basePath')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(781): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#4 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php(11): CController->render('newbookview', Array)
+#5 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): NewBookAction->run()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(NewBookAction))
+#8 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(NewBookAction), Array)
+#9 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('new')
+#10 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/ne...')
+#11 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/bookstore/index.php?r=book/default/new
+2011/08/08 11:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "new\".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('new\')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('new\')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/ne...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/index.php?r=book/default/new\
+2011/08/08 11:58:09 [error] [php] include(DisplayPriceWidget.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/opt/lampp/htdocs/bookstore/framework/YiiBase.php:421)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWidgetFactory.php(147): import()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(139): CWidgetFactory->createWidget()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(165): DefaultController->createWidget()
+#3 /opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php(12): DefaultController->widget()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): DefaultController->renderInternal()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): DefaultController->renderFile()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): DefaultController->renderPartial()
+#8 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php(11): DefaultController->render()
+#9 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): NewBookAction->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): NewBookAction->runWithParams()
+#11 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): DefaultController->runAction()
+#12 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): DefaultController->runActionWithFilters()
+#13 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): DefaultController->run()
+#14 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#15 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/default/new
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php (12)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php (11)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 11:58:38 [error] [exception.CException] exception 'CException' with message 'Property "PriceDisplayWidget.0" is not defined.' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:174
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWidgetFactory.php(162): CComponent->__set('0', '_price')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(139): CWidgetFactory->createWidget(Object(DefaultController), 'PriceDisplayWid...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(165): CBaseController->createWidget('PriceDisplayWid...', Array)
+#3 /opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php(12): CBaseController->widget('PriceDisplayWid...', Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('newbookview', Array, true)
+#8 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php(11): CController->render('newbookview', Array)
+#9 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): NewBookAction->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(NewBookAction))
+#12 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(NewBookAction), Array)
+#13 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('new')
+#14 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/ne...')
+#15 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/bookstore/index.php?r=book/default/new
+2011/08/08 11:59:03 [error] [exception.CException] exception 'CException' with message 'Property "PriceDisplayWidget.0" is not defined.' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:174
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWidgetFactory.php(162): CComponent->__set('0', '_price')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(139): CWidgetFactory->createWidget(Object(DefaultController), 'PriceDisplayWid...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(165): CBaseController->createWidget('PriceDisplayWid...', Array)
+#3 /opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php(12): CBaseController->widget('PriceDisplayWid...', Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('newbookview', Array, true)
+#8 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php(11): CController->render('newbookview', Array)
+#9 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): NewBookAction->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(NewBookAction))
+#12 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(NewBookAction), Array)
+#13 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('new')
+#14 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/ne...')
+#15 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/bookstore/index.php?r=book/default/new
+2011/08/08 11:59:04 [error] [exception.CException] exception 'CException' with message 'Property "PriceDisplayWidget.0" is not defined.' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:174
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWidgetFactory.php(162): CComponent->__set('0', '_price')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(139): CWidgetFactory->createWidget(Object(DefaultController), 'PriceDisplayWid...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(165): CBaseController->createWidget('PriceDisplayWid...', Array)
+#3 /opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php(12): CBaseController->widget('PriceDisplayWid...', Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('newbookview', Array, true)
+#8 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php(11): CController->render('newbookview', Array)
+#9 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): NewBookAction->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(NewBookAction))
+#12 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(NewBookAction), Array)
+#13 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('new')
+#14 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/ne...')
+#15 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/bookstore/index.php?r=book/default/new
+2011/08/08 11:59:04 [error] [exception.CException] exception 'CException' with message 'Property "PriceDisplayWidget.0" is not defined.' in /opt/lampp/htdocs/bookstore/framework/base/CComponent.php:174
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWidgetFactory.php(162): CComponent->__set('0', '_price')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(139): CWidgetFactory->createWidget(Object(DefaultController), 'PriceDisplayWid...', Array)
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(165): CBaseController->createWidget('PriceDisplayWid...', Array)
+#3 /opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php(12): CBaseController->widget('PriceDisplayWid...', Array)
+#4 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('newbookview', Array, true)
+#8 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php(11): CController->render('newbookview', Array)
+#9 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): NewBookAction->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(NewBookAction))
+#12 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(NewBookAction), Array)
+#13 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('new')
+#14 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/ne...')
+#15 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/bookstore/index.php?r=book/default/new
+2011/08/08 12:31:03 [error] [php] Undefined variable: lst (/opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): DefaultController->renderFile()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): DefaultController->renderPartial()
+#2 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php(11): DefaultController->render()
+#3 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): NewBookAction->run()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): NewBookAction->runWithParams()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): DefaultController->runAction()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): DefaultController->runActionWithFilters()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): DefaultController->run()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/default/new
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php (8)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php (11)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 12:32:32 [error] [php] Object of class PriceDisplayWidget could not be converted to string (/opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php:6)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): DefaultController->renderFile()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): DefaultController->renderPartial()
+#2 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php(11): DefaultController->render()
+#3 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): NewBookAction->run()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): NewBookAction->runWithParams()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): DefaultController->runAction()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): DefaultController->runActionWithFilters()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): DefaultController->run()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/default/new
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php (6)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php (11)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 12:32:54 [error] [php] Undefined variable: desc (/opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php:6)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): DefaultController->renderFile()
+#1 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): DefaultController->renderPartial()
+#2 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php(11): DefaultController->render()
+#3 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): NewBookAction->run()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): NewBookAction->runWithParams()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): DefaultController->runAction()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): DefaultController->runActionWithFilters()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): DefaultController->run()
+#8 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/default/new
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php (6)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php (11)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/08 12:39:50 [error] [exception.CException] exception 'CException' with message 'DescDisplayWidget cannot find the view "applications.components.views.descdisplayview".' in /opt/lampp/htdocs/bookstore/framework/web/widgets/CWidget.php:244
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/components/DescDisplayWidget.php(8): CWidget->render('applications.co...', Array)
+#1 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(166): DescDisplayWidget->run()
+#2 /opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php(9): CBaseController->widget('DescDisplayWidg...', Array)
+#3 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): CController->renderPartial('newbookview', Array, true)
+#7 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php(11): CController->render('newbookview', Array)
+#8 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): NewBookAction->run()
+#9 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(NewBookAction))
+#11 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(NewBookAction), Array)
+#12 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('new')
+#13 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/ne...')
+#14 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/bookstore/index.php?r=book/default/new
+2011/08/08 12:41:02 [error] [php] Undefined variable: headline (/opt/lampp/htdocs/bookstore/protected/components/views/descdisplayview.php:5)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/widgets/CWidget.php(242): DescDisplayWidget->renderFile()
+#1 /opt/lampp/htdocs/bookstore/protected/components/DescDisplayWidget.php(8): DescDisplayWidget->render()
+#2 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(166): DescDisplayWidget->run()
+#3 /opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php(9): DefaultController->widget()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(119): require()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CBaseController.php(88): DefaultController->renderInternal()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CController.php(866): DefaultController->renderFile()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CController.php(779): DefaultController->renderPartial()
+#8 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/NewBookAction.php(11): DefaultController->render()
+#9 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): NewBookAction->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): NewBookAction->runWithParams()
+#11 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): DefaultController->runAction()
+#12 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): DefaultController->runActionWithFilters()
+#13 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): DefaultController->run()
+#14 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#15 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/index.php?r=book/default/new
+in /opt/lampp/htdocs/bookstore/protected/components/views/descdisplayview.php (5)
+in /opt/lampp/htdocs/bookstore/protected/components/DescDisplayWidget.php (8)
+in /opt/lampp/htdocs/bookstore/protected/modules/book/views/default/newbookview.php (9)

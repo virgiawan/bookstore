@@ -1,0 +1,445 @@
+/*
+CSS Credit: http://www.obral_buku.com/
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, san-serif;
+	font-size: 11px;
+	color: #ffffff;
+	background: #4b4743;
+}
+
+a:link, a:visited { color: #e6e154; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: #e6e154; text-decoration: underline;}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 10px;
+	font-size: 1px;	
+}
+
+.cleaner_with_width {
+	float: left;
+	width: 10px;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.buy_now_button a{
+	margin-left	: 110px;
+	margin-top	: -55px;
+	clear: both;
+	text-align: center;
+	display: block;
+	width: 75px;
+	padding: 4px 0 5px 0;
+	margin-bottom: 10px; 
+	background: url(images/templatemo_btn_03.jpg) no-repeat;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.detail_button a{
+	clear: both;
+	margin-left	: 110px;
+	margin-top:-5px;
+	text-align: center;
+	display: block;
+	width: 75px;
+	padding: 4px 0 5px 0;
+	margin-bottom: 10px; 
+	background: url(images/obral_buku_btn_01.jpg) no-repeat;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#obral_buku_container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background: #1c1c1b url(images/obral_buku_bg.jpg) repeat-y;
+}
+
+/* search */
+#search{
+	margin-left			: 680px;
+	margin-top			: -3px;
+	font-family: Verdana, Arial, san-serif;
+}
+
+.button_search, .ya{
+	background-color	: transparent;
+	color				: #FCF88E;
+	font-size			: 12px;
+	font-weight			: bold;
+	border				: none;
+	padding-left		: 10px;
+	padding-right		: 10px;
+}
+
+.input_search ,.input_subscribe{
+	border				: 1px solid #FCF88E;
+	color				: grey;
+	-moz-border-radius	: 5px 5px 5px 5px;
+}
+/* end of search */
+
+.status_ym{
+	margin-left: 25px;
+	margin-top: 0px;
+}
+
+.book_rate{
+	margin-left : 115px;
+	margin-top : 50px;
+}
+
+.button_beli{
+	margin-left	: 580px;
+	clear: both;
+	text-align: center;
+	display: block;
+	width: 75px;
+	padding: 4px 0 5px 0;
+	margin-bottom: 10px; 
+	background: url(images/obral_buku_btn_01.jpg) no-repeat;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.button_beli a{
+	text-decoration:none;
+	color: #cbc750;
+}
+
+.button_beli a:hover{
+	color: #cbc750;
+}
+
+.facebook{
+	margin-left:50px;
+	margin-top:-50px;
+	margin-bottom:10px;
+}
+
+.subscribe{
+	margin-left:0px;
+}
+
+.daftar_barang{
+	border-collapse : collapse;
+	color			: #fff;
+}
+
+.daftar_barang b{
+		color			: #CBC750;
+}
+
+.button_lanjut{
+	margin-left	: 590px;
+	clear: both;
+	text-align: center;
+	display: block;
+	width: 75px;
+	padding: 4px 0 5px 0;
+	margin-bottom: 10px; 
+	background: url(images/obral_buku_btn_01.jpg) no-repeat;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.button_lanjut a{
+	text-decoration:none;
+	color: #cbc750;
+}
+
+.button_lanjut a:hover{
+	color: #cbc750;
+}
+
+/* menu */
+
+#obral_buku_menu {
+	clear: both;
+	width: 960px;
+	height: 45px;
+	background: url(images/obral_buku_menu_bg.jpg) no-repeat;
+}
+
+#obral_buku_menu ul {
+	padding: 13px 0 0 0;
+	margin: 0;
+	list-style: none;
+}
+
+#obral_buku_menu ul li{
+	display: inline;
+}
+
+#obral_buku_menu ul li a{
+	float: left;
+	padding: 0 20px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #969547;
+}
+
+#obral_buku_menu li a:hover, #obral_buku_menu li .current{
+	color: #fcf88e;
+}
+
+/* end of menu*/
+
+/* header */
+#obral_buku_header {
+	clear: both;
+	width: 960px;
+	height: 285px;
+	padding: 0;
+	margin: 0;
+	background: url(images/obral_buku_header_bg.png) no-repeat;
+}
+
+#obral_buku_header a,a:hover {
+	color: #ffffff;
+}
+
+#obral_buku_header #obral_buku_special_offers {
+	float: left;
+	font-size: 14px;	
+	margin-top: 95px;
+	margin-left: 490px;
+	width: 180px;
+}
+
+#obral_buku_special_offers a {
+	font-size: 12px;
+}
+
+#obral_buku_special_offers  p {
+	margin-bottom: 20px;
+	margin-top:-10px;
+}
+#obral_buku_special_offers p span {
+	font-size: 18px;
+}
+
+#obral_buku_header #obral_buku_new_books {
+	float: left;
+	margin-top: 90px;	
+	margin-left: 55px;
+	width: 180px;
+}
+
+#obral_buku_new_books ul {
+	margin-bottom: 10px;
+	margin-top:-10px;
+	padding: 0 0 0 20px;
+}
+
+#obral_buku_new_books li {
+	 margin: 0;
+	 padding: 0; 
+}
+
+
+/* end of header */
+
+
+/* content */
+#obral_buku_content {
+	clear: both;
+	width: 920px;
+	padding: 0 20px;
+}
+
+#obral_buku_content #obral_buku_content_left {
+	float: left;
+	width: 188px;
+	padding: 10px;
+	background-color: #171716;
+	border: 1px solid #212120;
+}
+
+#obral_buku_content #obral_buku_content_right {
+	float: right;
+	width: 670px;
+}
+
+
+#obral_buku_content_left .obral_buku_content_left_section{
+	clear: both;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #2b2b2a;
+	margin-bottom: 20px;
+}
+
+.obral_buku_content_left_section h1 {
+	font-size: 14px;
+	color: #cbc750;
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px dotted #cbc750;
+}
+
+.obral_buku_content_left_section ul {
+	padding: 0;
+	margin: 0;
+}
+
+.obral_buku_content_left_section ul li{
+	padding: 0 0 3px 10px;	
+	list-style: none;
+}
+
+.obral_buku_content_left_section ul li a{
+	font-weight: normal;
+	text-decoration: none;
+	color: #969547;
+}
+
+.obral_buku_content_left_section li a:hover, .obral_buku_content_left_section li .current{
+	color: #fcf88e;
+}
+
+#obral_buku_content_right .obral_buku_product_box {
+	float: left;
+	width: 193px;
+	height: auto;
+	padding: 10px;
+	border: 1px solid #333;
+}
+
+#obral_buku_content_right h1 {
+	padding: 10px;
+	margin: 0 0 20px -15px;
+	font-size: 15px;
+	color: #cbc750;
+	background: url(images/obral_buku_h1_bg.jpg);
+	-moz-border-radius:20px 0px 0px 20px;
+}
+
+#obral_buku_content_right h2 {
+	padding: 5px;;
+	margin: 0 0 20px 0;
+	font-size: 12px;
+	color: #e6e154;
+	background: url(images/obral_buku_h1_bg.jpg);
+}
+
+#obral_buku_content_right h3 {
+	padding: 0;
+	margin-left: 110px;
+	margin-top: -140px;
+	font-size: 16px;
+	color: #85391f;
+}
+
+#obral_buku_content_right ul {
+	margin: 0 0 20px 0;
+	padding: 0 0 0 20px;
+	list-style: none;
+}
+
+#obral_buku_content_right li {
+	padding: 0 0 3px 0;
+}
+
+#obral_buku_content_right .image_panel {
+	float: left;
+	width: 100px;
+	margin-right: 20px;
+}
+
+#obral_buku_content_right p {
+	text-align: justify;
+	padding: 0 0 8px 0;
+}
+
+.obral_buku_product_box h1 span {
+	font-weight: normal;
+}
+
+.obral_buku_product_box img {
+	float: left;
+	margin-right: 20px;
+	margin-top	: -10px;
+}
+
+.obral_buku_product_box .product_info {
+	float: left;
+	width: 193px;
+}
+
+.product_info p {
+	margin-bottom: 15px;
+}
+
+/* end of content */
+
+/* footer */
+#obral_buku_footer {
+	clear: both;
+	width: 960px;
+	padding: 20px 0px 20px 0;
+	text-align: center;
+	border-top: 1px solid #25211e;
+	color: #999;
+	background-color: #111110;
+}
+
+#obral_buku_footer a{
+	color: #fff;
+	font-weight: normal;
+}
+/* end of footer */
+
+/*tooltip*/
+
+#dhtmltooltip{
+				position: absolute;
+				width: 150px;
+				border: 2px solid black;
+				padding: 2px;
+				background-color: lightyellow;
+				visibility: hidden;
+				z-index: 100;
+				/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+				filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+			}
+			
+#tooltipnya{ padding:10px; font: normal 12px arial; color:#333;   }
+#tooltipnya b {font:bold 1.2em arial; color: brown; *letter-spacing:-0.03em; }
+#tooltipnya span { margin:0; padding:0; background:#FFF;}
+#tooltipx { background-color:#FFFFFF; height:31px; float:right; font: normal 9px arial; color:#999999; padding:3px;}
+#tooltipx img { vertical-align:middle;}
+
+.tooltipicon {clear:left; padding:10px; font:normal 11px arial; color:#333; border-top:1px solid #666;}
+.tooltipicon img {margin-right:5px}
