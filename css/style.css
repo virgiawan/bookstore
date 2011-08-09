@@ -309,6 +309,27 @@ img {
 	border-bottom: 1px dotted #cbc750;
 }
 
+#obral_buku_detail_description{
+    margin-top  : 30px;
+    text-align  : justify;
+}
+
+#obral_buku_purchase_form{
+    position    : absolute;
+    width       : 310px;
+    height      : 130px;
+    margin-left : 330px; 
+    margin-top  : -155px; 
+    border      : 1px solid #333;
+    padding     : 5px; 
+}
+
+
+#obral_buku_detail_book{
+    width   : 670px;
+    height  : 210px;
+}
+
 .obral_buku_content_left_section ul {
 	padding: 0;
 	margin: 0;
@@ -335,6 +356,7 @@ img {
 	height: auto;
 	padding: 10px;
 	border: 1px solid #333;
+        word-warp           : break-word;
 }
 
 #obral_buku_content_right h1 {
@@ -357,7 +379,7 @@ img {
 #obral_buku_content_right h3 {
 	padding: 0;
 	margin-left: 110px;
-	margin-top: -140px;
+	margin-top: -160px;
 	font-size: 16px;
 	color: #85391f;
 }
@@ -393,6 +415,10 @@ img {
 	margin-top	: -10px;
 }
 
+a{
+    outline : none;
+}
+
 .obral_buku_product_box .product_info {
 	float: left;
 	width: 193px;
@@ -400,6 +426,10 @@ img {
 
 .product_info p {
 	margin-bottom: 15px;
+}
+
+.obral_buku_detail_book_image{
+    margin-right : 10px;  
 }
 
 /* end of content */
@@ -436,7 +466,7 @@ img {
 			}
 			
 #tooltipnya{ padding:10px; font: normal 12px arial; color:#333;   }
-#tooltipnya b {font:bold 1.2em arial; color: brown; *letter-spacing:-0.03em; }
+#tooltipnya b {font:bold 1.2em arial; color: brown; /*letter-spacing:-0.03em;*/ }
 #tooltipnya span { margin:0; padding:0; background:#FFF;}
 #tooltipx { background-color:#FFFFFF; height:31px; float:right; font: normal 9px arial; color:#999999; padding:3px;}
 #tooltipx img { vertical-align:middle;}

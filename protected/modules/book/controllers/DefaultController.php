@@ -11,6 +11,9 @@ class DefaultController extends Controller{
     public function actions(){
         return array(
             'new'=>'application.modules.book.controllers.default.NewBookAction',
+            'buy'=>'application.modules.book.controllers.default.BuyBookAction',
+            'detail'=>'application.modules.book.controllers.default.DetailBookAction',
+            'confirm'=>'application.modules.book.controllers.default.ConfirmBookAction',
         );
     }
     
