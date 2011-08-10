@@ -9,7 +9,7 @@
  * @property integer $pur_quantity
  * @property integer $pur_total_price
  * @property integer $pur_member_id
- * @property string $pur_date_time
+ * @property string $pur_date
  * @property integer $pur_billing_id
  *
  * The followings are the available model relations:
@@ -43,11 +43,11 @@ class Purchase extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('pur_book_id, pur_quantity, pur_total_price, pur_member_id, pur_date_time', 'required'),
+			array('pur_book_id, pur_quantity, pur_total_price, pur_member_id, pur_date', 'required'),
 			array('pur_book_id, pur_quantity, pur_total_price, pur_member_id, pur_billing_id', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('pur_id, pur_book_id, pur_quantity, pur_total_price, pur_member_id, pur_date_time, pur_billing_id', 'safe', 'on'=>'search'),
+			array('pur_id, pur_book_id, pur_quantity, pur_total_price, pur_member_id, pur_date, pur_billing_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -75,7 +75,7 @@ class Purchase extends CActiveRecord
 			'pur_quantity' => 'Pur Quantity',
 			'pur_total_price' => 'Pur Total Price',
 			'pur_member_id' => 'Pur Member',
-			'pur_date_time' => 'Pur Date Time',
+			'pur_date' => 'Pur Date',
 			'pur_billing_id' => 'Pur Billing',
 		);
 	}
@@ -96,7 +96,7 @@ class Purchase extends CActiveRecord
 		$criteria->compare('pur_quantity',$this->pur_quantity);
 		$criteria->compare('pur_total_price',$this->pur_total_price);
 		$criteria->compare('pur_member_id',$this->pur_member_id);
-		$criteria->compare('pur_date_time',$this->pur_date_time,true);
+		$criteria->compare('pur_date',$this->pur_date,true);
 		$criteria->compare('pur_billing_id',$this->pur_billing_id);
 
 		return new CActiveDataProvider($this, array(

@@ -14,6 +14,7 @@ class DefaultController extends Controller{
             'buy'=>'application.modules.book.controllers.default.BuyBookAction',
             'detail'=>'application.modules.book.controllers.default.DetailBookAction',
             'confirm'=>'application.modules.book.controllers.default.ConfirmBookAction',
+            'bill'=>'application.modules.book.controllers.default.CreateBillAction',
         );
     }
     

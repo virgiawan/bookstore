@@ -30,7 +30,7 @@
                         <?php echo Yii::app()->request->cookies[$key]->value?>
                         <input type="hidden" name="pur_quantity[]" value="<?php echo Yii::app()->request->cookies[$key]->value;?>" />
                     </td>
-                    <td>
+                    <td align="right">
                         <?php $b_price=Yii::app()->request->cookies[$key]->value*$b_price;  $this->widget('PriceDisplayWidget',array('_price'=>$b_price));?>
                         <input type="hidden" name="pur_total_price[]" value="<?php echo $b_price;?>" />
                     </td>
