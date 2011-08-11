@@ -26,3 +26,4 @@
         </tr>
     <?php endforeach;?>
 </table>
+    <?php $this->widget('CLinkPager',array('pages'=>$pages,'cssFile'=>false))?>

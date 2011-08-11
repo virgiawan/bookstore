@@ -7,11 +7,14 @@
             <th>Judul Buku</th>
             <th>Jumlah</th>
             <th>Harga</th>
+            <th>Ubah</th>
+            <th>Hapus</th>
         </tr>
         <?php $array_cookie=Yii::app()->request->getCookies()->toArray();$i=0;$total=0;?>
         <?php foreach($array_cookie as $key=>$value):?>
             <?php if(strpos($key, "chart_")!==false):?>
                 <?php 
+                    $cookie_name=$key;
                     $exp=  explode("_",$key);
                     $b_id=$exp[1];
                     $b_title=str_replace("*", " ", $exp[2]);
@@ -33,6 +36,12 @@
                     <td align="right">
                         <?php $b_price=Yii::app()->request->cookies[$key]->value*$b_price;  $this->widget('PriceDisplayWidget',array('_price'=>$b_price));?>
                         <input type="hidden" name="pur_total_price[]" value="<?php echo $b_price;?>" />
+                    </td>
+                    <td>
+                        <a href="<?php echo $this->createUrl('default/detail',array('bid'=>$b_id))?>">Ubah</a>
+                    </td>
+                    <td>
+                        <a href="<?php echo $this->createUrl('default/delete',array('cookie_name'=>$cookie_name))?>">Hapus</a>
                     </td>
                 </tr>
             <?php $total=$total+$b_price;endif;?>

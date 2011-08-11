@@ -13,6 +13,7 @@
  * @property string $bil_message
  * @property string $bil_date
  * @property integer $bil_status
+ * @property integer $bil_shipping_status
  *
  * The followings are the available model relations:
  * @property Member $bilMember
@@ -46,16 +47,16 @@ class Billing extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('bil_key, bil_member_id, bil_address_destination, bil_shipping_charges_id, bil_total_price, bil_message, bil_date', 'required'),
-			array('bil_member_id, bil_shipping_charges_id, bil_total_price, bil_status', 'numerical', 'integerOnly'=>true),
+			array('bil_member_id, bil_shipping_charges_id, bil_total_price, bil_status, bil_shipping_status', 'numerical', 'integerOnly'=>true),
 			array('bil_key', 'length', 'max'=>32),
 			array('bil_address_destination', 'length', 'max'=>200),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('bil_id, bil_key, bil_member_id, bil_address_destination, bil_shipping_charges_id, bil_total_price, bil_message, bil_date, bil_status', 'safe', 'on'=>'search'),
+			array('bil_id, bil_key, bil_member_id, bil_address_destination, bil_shipping_charges_id, bil_total_price, bil_message, bil_date, bil_status, bil_shipping_status', 'safe', 'on'=>'search'),
 		);
 	}
         
-        public function safeAttributes(){
+       public function safeAttributes(){
             return array(
                 'add'=>'bil_key, bil_member_id, bil_address_destination, bil_shipping_charges_id, bil_total_price,bil_date',
             );
@@ -89,6 +90,7 @@ class Billing extends CActiveRecord
 			'bil_message' => 'Bil Message',
 			'bil_date' => 'Bil Date',
 			'bil_status' => 'Bil Status',
+			'bil_shipping_status' => 'Bil Shipping Status',
 		);
 	}
 
@@ -112,6 +114,7 @@ class Billing extends CActiveRecord
 		$criteria->compare('bil_message',$this->bil_message,true);
 		$criteria->compare('bil_date',$this->bil_date,true);
 		$criteria->compare('bil_status',$this->bil_status);
+		$criteria->compare('bil_shipping_status',$this->bil_shipping_status);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

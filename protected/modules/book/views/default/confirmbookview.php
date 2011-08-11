@@ -24,7 +24,7 @@
 <h2>Form bill : </h2>
 <?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg));?>
 <form action="<?php echo $this->createUrl('default/bill');?>" method="POST" onSubmit="return confirm('Pastikan data yang Anda Masukkan sudah benar')">
-    <input type="hidden" name="bil_key" value="<?php echo rand(000000, 999999);?>" />
+    <input type="hidden" name="bil_key" value="<?php echo rand(0000, 9999);?>" />
     <input type="hidden" name="bil_total_price" value="<?php echo $total;?>" />
     <table>
         <tr>
