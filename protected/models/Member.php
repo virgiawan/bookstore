@@ -6,9 +6,10 @@
  * The followings are the available columns in table 'bs_member':
  * @property integer $m_id
  * @property string $m_name
+ * @property string $m_address
  * @property string $m_email
- * @property string $m_username
  * @property string $m_password
+ * @property integer $m_activation
  *
  * The followings are the available model relations:
  * @property Billing[] $billings
@@ -41,15 +42,24 @@ class Member extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('m_name, m_email, m_username, m_password', 'required'),
+			array('m_name, m_address, m_email, m_password', 'required'),
+                        array('m_email','email'),
+			array('m_activation', 'numerical', 'integerOnly'=>true),
 			array('m_name', 'length', 'max'=>50),
-			array('m_email', 'length', 'max'=>100),
-			array('m_username, m_password', 'length', 'max'=>32),
+			array('m_address, m_email', 'length', 'max'=>100),
+			array('m_password', 'length', 'max'=>32),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('m_id, m_name, m_email, m_username, m_password', 'safe', 'on'=>'search'),
+			array('m_id, m_name, m_address, m_email, m_password, m_activation', 'safe', 'on'=>'search'),
 		);
 	}
+        
+        public function safeAttributes(){
+            return array(
+                'add'=>'m_name,m_address,m_email,m_password',
+                'update'=>'m_name,m_address,m_email,m_password',
+            );
+        }
 
 	/**
 	 * @return array relational rules.
@@ -71,10 +81,11 @@ class Member extends CActiveRecord
 	{
 		return array(
 			'm_id' => 'M',
-			'm_name' => 'M Name',
-			'm_email' => 'M Email',
-			'm_username' => 'M Username',
-			'm_password' => 'M Password',
+			'm_name' => 'Name',
+			'm_address' => 'Address',
+			'm_email' => 'Email',
+			'm_password' => 'Password',
+			'm_activation' => 'Activation',
 		);
 	}
 
@@ -91,9 +102,10 @@ class Member extends CActiveRecord
 
 		$criteria->compare('m_id',$this->m_id);
 		$criteria->compare('m_name',$this->m_name,true);
+		$criteria->compare('m_address',$this->m_address,true);
 		$criteria->compare('m_email',$this->m_email,true);
-		$criteria->compare('m_username',$this->m_username,true);
 		$criteria->compare('m_password',$this->m_password,true);
+		$criteria->compare('m_activation',$this->m_activation);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

@@ -3,7 +3,7 @@
     class AddBookAction extends CAction{
         
         public function run(){
-            $data['action']=$this->controller->createUrl('add');
+            //$data['action']=$this->controller->createUrl('add');
             $data['msg']=Yii::app()->user->getFlash('msg');
             $data['value']='';
             $data['category'] = Category::model()->findAll();

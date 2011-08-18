@@ -31,6 +31,7 @@
             <td><?php $this->widget('PriceDisplayWidget',array('_price'=>$vl->bilShippingCharges->sc_cost))?></td>
             <td><?php $this->widget('PriceDisplayWidget',array('_price'=>$vl->bil_total_price))?></td>
             <td><?php $total=$vl->bilShippingCharges->sc_cost+$vl->bil_total_price;$this->widget('PriceDisplayWidget',array('_price'=>$total))?></td>
+            <td><a href="<?php echo $this->createUrl('default/detail',array('billid'=>$vl->bil_id))?>">Detail</a></td>
         </tr>
     <?php endforeach;?>
 </table>

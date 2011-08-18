@@ -7,6 +7,9 @@
         }
         
         public function actions(){
+            if(Yii::app()->user->getState('role')!='admin'){
+                $this->redirect($this->createUrl('//login/admin/login'));
+            }
             return array(
                 'add'=>'application.modules.book.controllers.admin.AddBookAction',
                 'list'=>'application.modules.book.controllers.admin.ListBookAction',

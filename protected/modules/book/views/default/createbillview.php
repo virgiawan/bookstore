@@ -69,3 +69,4 @@
             </td>
         </tr>
 </table>
+<a href="<?php echo $this->createUrl('//book/default/list')?>">Beranda</a>

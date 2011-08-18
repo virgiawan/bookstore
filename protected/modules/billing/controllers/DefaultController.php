@@ -11,6 +11,7 @@
         public function actions() {
             return array(
                 'list'=>'application.modules.billing.controllers.default.ListBillingAction',
+                'detail'=>'application.modules.billing.controllers.default.DetailBillingAction',
             );
         }
 

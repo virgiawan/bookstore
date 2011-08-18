@@ -22,6 +22,10 @@ return array(
 		// uncomment the following to enable the Gii tool
                 'book',
                 'billing',
+                'login',
+                'member',
+                'category',
+                'publisher',
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'bookstore',
@@ -37,8 +41,9 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-		/*
 		'urlManager'=>array(
+                        'showScriptName'=>false,
+                        'urlSuffix'=>'.html',
 			'urlFormat'=>'path',
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
@@ -46,7 +51,6 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		*/
 		/*'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),*/

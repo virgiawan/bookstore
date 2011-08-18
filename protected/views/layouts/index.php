@@ -76,35 +76,56 @@
     </script>
 </head>
 <body>
+    <?php 
+        $module=Yii::app()->controller->module->id;
+        $action=Yii::app()->controller->action->id;
+        $change=$book=$buy=$billing="";
+        if($module=='book' && $action=='buy'){
+            $buy="current";
+        }
+        else if($module=='member' && $action=='changepassword'){
+            $change="current";
+        }
+        else if($module=='book'){
+            $book="current";
+        }
+        else if($module=='billing'){
+            $billing="current";
+        }
+    ?>
 <!--  Free CSS Templates -- Modified by Virgiawan Huda Akbar -->
 <div id="obral_buku_container">
     <div id="obral_buku_menu">
         <!-- menu -->
         <ul>
-            <li><a href="index.html" class="current">Beranda</a></li>
+            <li><a href="<?php echo $this->createUrl('//book/default/list')?>" class="<?php echo $book?>">Beranda</a></li>
             <li><a href="form.html">Cara Pembelian</a></li>
             <li><a href="subpage.html">Tentang Kami</a></li>
+            <?php if(Yii::app()->request->cookies['buy']):?>
+                <li><a href="<?php echo $this->createUrl('//book/default/buy')?>" class="<?php echo $buy?>">Keranjang Belanja</a></li>
+            <?php endif?>
+             <?php if(Yii::app()->request->cookies['confirm']):?>
+                <li><a href="<?php echo $this->createUrl('//book/default/confirm')?>" class="<?php echo $buy?>">Konfirmasi Pembayaran</a></li>
+            <?php endif?>
+            <?php if(Yii::app()->user->getState('role')!=null):?>
+                <li><a href="<?php echo $this->createUrl('//billing/default/list')?>" class="<?php echo $billing?>">Daftar Billing</a></li>
+                <li><a href="<?php echo $this->createUrl('//member/default/changepassword')?>" class="<?php echo $change?>">Ubah Password</a></li>
+                <li><a href="<?php echo $this->createUrl('//login/default/logout')?>">Logout ( <?php echo Yii::app()->user->getState('name')?> )</a></li>
+            <?php else:?>
+                <li><a href="<?php echo $this->createUrl('//login/default/login')?>">Login</a></li>
+            <?php endif;?>
         </ul>
-        <!--search-->
-        <div id="search">
-            <form action="">
-                    <input class="input_search" type="text" size="25" maxlength="100" value="              -- Cari buku --">
-                    <input class="button_search" type="submit" value="Cari">
-            </form>
-        </div><!-- end of search -->
     </div><!-- end of menu -->
     
     <div id="obral_buku_header">
     	<div id="obral_buku_special_offers">
-        	<p>
-                Kami berikan diskon sebesar <span>25%</span> selama bulan ini.
-        	</p>
-			<a href="subpage.html" style="margin-left: 50px;">Selengkapnya..</a>
+            <p>
+            Kami berikan diskon sebesar <span>25%</span> selama bulan ini.
+            </p>
+            <a href="subpage.html" style="margin-left: 50px;">Selengkapnya..</a>
         </div>
-        
-        
         <div id="obral_buku_new_books">
-        	<ul>
+            <ul>
                 <li>Cara Menjadi Pebisnis Sukses dalam 24 Jam</li>
                 <li>100 Cara Membuat Bisnis Pecel Lele Anda Laris</li>
                 <li>Indahnya Kebersamaan</li>
@@ -114,66 +135,48 @@
     </div> <!-- end of header -->
     
     <div id="obral_buku_content">
-    	
         <div id="obral_buku_content_left">
-        	<div class="obral_buku_content_left_section">
+            <div class="obral_buku_content_left_section">
             	<h1>Kategori</h1>
-                <ul>
-                    <li><a href="subpage.html">Agama</a></li>
-					<li><a href="#">Bahasa dan Sastra</a></li>
-					<li><a href="#">Ekonomi</a></li>
-					<li><a href="#">Kesehatan</a></li>
-					<li><a href="#">Komik</a></li>
-					<li><a href="#">Komputer</a></li>
-                    <li><a href="subpage.html">Motivasi</a></li>
-                    <li><a href="#">Novel</a></li>
-                    <li><a href="#">Pelajaran</a></li>
-                    <li><a href="#">Politik</a></li>
-					<li><a href="#">Lihat semua kategori..</a></li>
-            	</ul>
+                <?php $this->widget('CategoryDisplayWidget')?>
             </div>
-			<div class="obral_buku_content_left_section">
+            <div class="obral_buku_content_left_section">
             	<h1>Penerbit Populer :</h1>
-                <ul>
-                    <li><a href="subpage.html">Andi Publisher</a></li>
-                    <li><a href="subpage.html">Gramedia Pustaka Utama</a></li>
-                    <li><a href="#">Elex Media Komputindo</a></li>
-                    <li><a href="#">Penebar Swadaya</a></li>
-                    <li><a href="#">Erlangga</a></li>
-                    <li><a href="#">Gagas Media</a></li>
-                    <li><a href="#">Griya Kreasi</a></li>
-                    <li><a href="#">DAR Mizan</a></li>
-                    <li><a href="#">Ufuk Publishing</a></li>
-					<li><a href="#">Kompas</a></li>
-					<li><a href="#">Lihat semua penerbit..</a></li>
-            	</ul>
+                <?php $this->widget('PublisherDisplayWidget')?>
             </div>
-            
             <div class="obral_buku_content_left_section">   
-				<h1>Layanan Online :</h1>
-					<img class="status_ym" src="images/online.gif" alt="image"/>
-			</div>
-			<div class="obral_buku_content_left_section">                
-				<img src="images/rss.png" width="45" height="45" alt="image" width="186"/>
-				<img class="facebook" src="images/facebook_logo1.jpg" alt="image" width="130"/>
-			</div>
-			<div class="obral_buku_content_left_section">
-				<h1>Berlangganan :</h1>
-				<table class="subscribe">
-					<tr><td><input class="input_subscribe" type="text" value="        -- Nama Anda --"/></td><td></td></tr>
-					<tr><td><input class="input_subscribe" type="text" value="        -- Email Anda --" /></td><td align="right"><input class="ya" type="submit" value="Ya" /></td></tr>
-				</table>
-			</div>
+                <h1>Layanan Online :</h1>
+                <img class="status_ym" src="images/online.gif" alt="image"/>
+            </div>
+            <div class="obral_buku_content_left_section">                
+                <img src="images/rss.png" width="45" height="45" alt="image" width="186"/>
+                <img class="facebook" src="images/facebook_logo1.jpg" alt="image" width="130"/>
+            </div>
         </div> <!-- end of content left -->
         <div id="obral_buku_content_right">
             <?php echo $content;?>
         </div> <!-- end of content right -->
-    	<div class="cleaner_with_height">&nbsp;</div>
+        <div class="cleaner_with_height">&nbsp;</div>
     </div> <!-- end of content -->
     <div id="obral_buku_footer">
-	       <a href="subpage.html">Beranda</a> | <a href="subpage.html">Cara Pembelian</a> | <a href="subpage.html">Tentang Kami</a><br>
-        Copyright © 2011 <a href="#"><strong>Obral Buku</strong></a></div>
-    <!-- end of footer -->
+        <a href="<?php echo $this->createUrl('//book/default/list')?>">Beranda</a> | 
+        <a href="form.html">Cara Pembelian</a> | 
+        <a href="subpage.html">Tentang Kami</a> | 
+        <?php if(Yii::app()->request->cookies['buy']):?>
+            <a href="<?php echo $this->createUrl('//book/default/buy')?>">Keranjang Belanja</a> | 
+        <?php endif?>
+        <?php if(Yii::app()->request->cookies['confirm']):?>
+            <a href="<?php echo $this->createUrl('//book/default/confirm')?>">Konfirmasi Pembayaran</a> | 
+        <?php endif?>
+        <?php if(Yii::app()->user->getState('role')!=null):?>
+            <a href="<?php echo $this->createUrl('//billing/default/list')?>">Daftar Billing</a> | 
+            <a href="<?php echo $this->createUrl('//member/default/changepassword')?>">Ubah Password</a> | 
+            <a href="<?php echo $this->createUrl('//login/default/logout')?>">Logout ( <?php echo Yii::app()->user->getState('name')?> )</a>
+        <?php else:?>
+            <a href="<?php echo $this->createUrl('//login/default/login')?>">Login</a>
+        <?php endif;?>
+        <br/>Copyright © 2011 <a href="#"><strong>Obral Buku</strong></a>
+    </div><!-- end of footer -->
 <!--  Free CSS Template www.obral_buku.com -->
 </div> <!-- end of container -->
 </body>

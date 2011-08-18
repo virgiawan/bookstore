@@ -1,5 +1,8 @@
 <h1>Keranjang Belanja Anda</h1>
-<form action="<?php echo $this->createUrl('default/confirm'); ?>" method="POST" onSubmit="return confirm('Akhiri Belanja Anda ?')">
+<?php if(Yii::app()->user->getState('role')) echo "Anda telah login"?>
+<?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg));?>
+<form action="<?php echo $this->createUrl('default/confirm'); ?>" method="POST" 
+<?php if(Yii::app()->user->getState('role')):?> onSubmit="return confirm('Akhiri Belanja Anda ?')" <?php endif;?>>
     <table>
         <tr>
             <th>No</th>
@@ -51,9 +54,10 @@
             <td><?php $this->widget('PriceDisplayWidget',array('_price'=>$total))?></td>
         </tr>
         <tr>
-            <td colspan="5">
+            <td colspan="7" align="right">
                 <input type="submit" value="Beli" />
             </td>
         </tr>
     </table>
 </form>
+<a href="javascript:self.history.back();">Back</a>

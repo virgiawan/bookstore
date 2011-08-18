@@ -1,5 +1,5 @@
 <?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg));?>
-<form action="<?php echo $action?>" method="POST" enctype="multipart/form-data">
+<form action="" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="bid" value="<?php echo isset($value->b_id)?$value->b_id:"";?>"/>
     <table>
         <tr>

@@ -3,7 +3,7 @@
     class ListBillingAction extends CAction{
         
         public function run(){
-            $memberid=1;
+            $memberid=Yii::app()->user->getState('id');
             $criteria = new CDbCriteria();
             $criteria->order='bil_date DESC';
             $itemCount = Billing::model()->count();

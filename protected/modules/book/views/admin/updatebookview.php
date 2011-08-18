@@ -4,6 +4,5 @@
         'value'=>$value,
         'category'=>$category,
         'publisher'=>$publisher,
-        'action'=>$action,
         'button'=>'Update',
 ));?>

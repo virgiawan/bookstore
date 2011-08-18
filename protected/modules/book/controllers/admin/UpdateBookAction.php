@@ -4,7 +4,6 @@
         
         public function run(){
             $data['msg']=Yii::app()->user->getFlash('msg');
-            $data['action']=$this->controller->createUrl('update');
             $data['category']=Category::model()->findAll();
             $data['publisher']=Publisher::model()->findAll();
             if(Yii::app()->request->isPostRequest){

@@ -10,20 +10,26 @@
     <p><b>Harga : </b> <?php $this->widget('PriceDisplayWidget',array('_price'=>$value->b_price))?></p>
     <div id="obral_buku_purchase_form">
         <h2>Beli Sekarang</h2>
-        <h4><?php $this->widget('PriceDisplayWidget',array('_price'=>$value->b_price))?></h4>
-        <form action="<?php echo $this->createUrl('default/buy');?>" method="POST">
-            <input type="hidden" name="b_id" value="<?php echo $value->b_id;?>"/>
-            Jumlah : 
-            <select name="pur_quantity">
-                <?php for($i=1;$i<=20;$i++):?>
-                    <option value="<?php echo $i?>"><?php echo $i?></option>
-                <?php endfor;?>
-            </select>
-            <input type="submit" value="Beli"/>
-        </form>
+        <?php if($value->b_stock==0):?>
+            <h4>Stock habis</h4>
+        <?php else:?>
+            <h4><?php $this->widget('PriceDisplayWidget',array('_price'=>$value->b_price))?></h4>
+            <form action="<?php echo $this->createUrl('default/buy');?>" method="POST">
+                <input type="hidden" name="b_id" value="<?php echo $value->b_id;?>"/>
+                Jumlah : 
+                <select name="pur_quantity">
+                    <?php $value->b_stock>20?$count=20:$count=$value->b_stock?>
+                    <?php for($i=1;$i<=$count;$i++):?>
+                        <option value="<?php echo $i?>"><?php echo $i?></option>
+                    <?php endfor;?>
+                </select>
+                <input type="submit" value="Beli"/>
+            </form>
+        <?php endif;?>
     </div>
     <div id="obral_buku_detail_description">
         <b>Description :</b>
         <?php echo $value->b_description;?>
     </div>
+    <a href="javascript:self.history.back();">Back</a>
 </div>
