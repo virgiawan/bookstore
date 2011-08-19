@@ -1,5 +1,5 @@
 <h1>Login Member :</h1>
-<?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg));?>
+<b><?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg));?></b>
 <?php if(Yii::app()->request->cookies['buy']):?>
     Untuk melakukan pembelian Anda harus login terlebih dahulu
 <?php endif;?>
@@ -24,4 +24,4 @@
         </tr>
     </table>
 </form>
-    Buat account, klik di <a href="<?php echo $this->createUrl('//member/default/register')?>">sini</a>
+<b>Buat account, klik di <a href="<?php echo $this->createUrl('//member/default/register')?>">sini</a></b>

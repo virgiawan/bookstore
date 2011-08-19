@@ -1,5 +1,5 @@
 <h1>Buat Account :</h1>
-<?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg))?>
+<b><?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg))?></b>
 * Harus diisi
 <form action="" method="POST">
     <table>
@@ -30,3 +30,6 @@
         </tr>
     </table>
 </form>
+<div class="back_button">
+    <a href="javascript:self.history.back();">Back</a>
+</div>

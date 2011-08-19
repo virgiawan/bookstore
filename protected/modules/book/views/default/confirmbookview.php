@@ -8,14 +8,22 @@
         <th>Harga</th>
     </tr>
     <?php $total=0;$i=1;foreach($value as $vl):?>
-    <tr>
+     <?php
+        if($i%2==0){
+            $color='#101016';
+        }
+        else{
+            $color='#000';
+        }
+    ?>
+    <tr style="background-color: <?php echo $color?>">
         <td><?php echo $i;?></td>
         <td><?php echo $vl->purBook->b_title?></td>
         <td><?php echo $vl->pur_quantity;?></td>
         <td align="right"><?php $this->widget('PriceDisplayWidget',array('_price'=>$vl->pur_total_price))?></td>
     </tr>
-    <?php $total=$total+$vl->pur_total_price;endforeach;?>
-    <tr>
+    <?php $i++;$total=$total+$vl->pur_total_price;endforeach;?>
+    <tr style="background-color : #003D03 ">
         <td colspan="3">Jumlah</td>
         <td><?php $this->widget('PriceDisplayWidget',array('_price'=>$total));?></td>
     </tr>
@@ -23,7 +31,7 @@
 
 <h2>Form bill : </h2>
 <?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg));?>
-<form action="<?php echo $this->createUrl('default/bill');?>" method="POST" onSubmit="return confirm('Pastikan data yang Anda Masukkan sudah benar')">
+<form action="<?php echo $this->createUrl('default/bill');?>" method="POST" onSubmit="return confirm('Pastikan data yang Anda masukkan sudah benar')">
     <input type="hidden" name="bil_key" value="<?php echo rand(0000, 9999);?>" />
     <input type="hidden" name="bil_total_price" value="<?php echo $total;?>" />
     <table>

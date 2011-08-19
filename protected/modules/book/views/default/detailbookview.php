@@ -1,4 +1,4 @@
-<h1>Detail Book :</h1>
+<h1>Detail Book </h1>
 <div id="obral_buku_detail_book">
     <h2> <?php echo $value->b_title;?></h2>
     <img class="obral_buku_detail_book_image" align="left" width="100" height="150" src="<?php echo Yii::app()->request->baseUrl."/imgbook/resize/".$value->b_image;?>"/>
@@ -31,5 +31,7 @@
         <b>Description :</b>
         <?php echo $value->b_description;?>
     </div>
+</div>
+<div class="back_button">
     <a href="javascript:self.history.back();">Back</a>
 </div>

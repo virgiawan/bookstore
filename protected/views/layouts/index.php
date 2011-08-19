@@ -79,12 +79,15 @@
     <?php 
         $module=Yii::app()->controller->module->id;
         $action=Yii::app()->controller->action->id;
-        $change=$book=$buy=$billing="";
+        $change=$book=$buy=$billing=$confirm="";
         if($module=='book' && $action=='buy'){
             $buy="current";
         }
         else if($module=='member' && $action=='changepassword'){
             $change="current";
+        }
+        else if($module=='book' && $action=='confirm'){
+            $confirm="current";
         }
         else if($module=='book'){
             $book="current";
@@ -100,12 +103,12 @@
         <ul>
             <li><a href="<?php echo $this->createUrl('//book/default/list')?>" class="<?php echo $book?>">Beranda</a></li>
             <li><a href="form.html">Cara Pembelian</a></li>
-            <li><a href="subpage.html">Tentang Kami</a></li>
+            <li><a href="<?php echo $this->createUrl('//book/default/search')?>">Cari</a></li>
             <?php if(Yii::app()->request->cookies['buy']):?>
                 <li><a href="<?php echo $this->createUrl('//book/default/buy')?>" class="<?php echo $buy?>">Keranjang Belanja</a></li>
             <?php endif?>
-             <?php if(Yii::app()->request->cookies['confirm']):?>
-                <li><a href="<?php echo $this->createUrl('//book/default/confirm')?>" class="<?php echo $buy?>">Konfirmasi Pembayaran</a></li>
+             <?php if(Yii::app()->request->cookies['confirm']!=null && Yii::app()->request->cookies['buy']==null):?>
+                <li><a href="<?php echo $this->createUrl('//book/default/confirm')?>" class="<?php echo $confirm?>">Konfirmasi Pembayaran</a></li>
             <?php endif?>
             <?php if(Yii::app()->user->getState('role')!=null):?>
                 <li><a href="<?php echo $this->createUrl('//billing/default/list')?>" class="<?php echo $billing?>">Daftar Billing</a></li>
@@ -119,17 +122,17 @@
     
     <div id="obral_buku_header">
     	<div id="obral_buku_special_offers">
-            <p>
+           <!-- <p>
             Kami berikan diskon sebesar <span>25%</span> selama bulan ini.
             </p>
-            <a href="subpage.html" style="margin-left: 50px;">Selengkapnya..</a>
+            <a href="subpage.html" style="margin-left: 50px;">Selengkapnya..</a>-->
         </div>
         <div id="obral_buku_new_books">
-            <ul>
+            <!--<ul>
                 <li>Cara Menjadi Pebisnis Sukses dalam 24 Jam</li>
                 <li>100 Cara Membuat Bisnis Pecel Lele Anda Laris</li>
                 <li>Indahnya Kebersamaan</li>
-            </ul>
+            </ul>-->
             <a href="subpage.html" style="margin-left: 50px;">Selengkapnya...</a>
         </div>
     </div> <!-- end of header -->
@@ -146,7 +149,7 @@
             </div>
             <div class="obral_buku_content_left_section">   
                 <h1>Layanan Online :</h1>
-                <img class="status_ym" src="images/online.gif" alt="image"/>
+                <a href="ymsgr:sendIM?hilex_co&m=Hello"><img class="ym" src="http://opi.yahoo.com/online?u=hilex_co&t=14" border="0" /></a>
             </div>
             <div class="obral_buku_content_left_section">                
                 <img src="images/rss.png" width="45" height="45" alt="image" width="186"/>
@@ -161,7 +164,6 @@
     <div id="obral_buku_footer">
         <a href="<?php echo $this->createUrl('//book/default/list')?>">Beranda</a> | 
         <a href="form.html">Cara Pembelian</a> | 
-        <a href="subpage.html">Tentang Kami</a> | 
         <?php if(Yii::app()->request->cookies['buy']):?>
             <a href="<?php echo $this->createUrl('//book/default/buy')?>">Keranjang Belanja</a> | 
         <?php endif?>

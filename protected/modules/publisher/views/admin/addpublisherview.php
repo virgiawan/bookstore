@@ -1,5 +1,5 @@
 <h2>Add Publisher</h2>
-<?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg))?>
+<b class="msg"><?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg))?></b>
 <form action="" method="POST">
     <table>
         <tr>

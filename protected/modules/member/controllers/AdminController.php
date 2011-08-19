@@ -2,6 +2,8 @@
 
     class AdminController extends Controller{
         
+        public $layout = 'application.views.layouts.template';
+
         public function init(){
             
         }
@@ -12,6 +14,7 @@
             }
             return array(
                 'list'=>'application.modules.member.controllers.admin.ListMemberAction',
+                'changepassword'=>'application.modules.member.controllers.admin.ChangePasswordAction',
             );
         }
         

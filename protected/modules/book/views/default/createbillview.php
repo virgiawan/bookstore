@@ -44,7 +44,15 @@
         <th>Harga</th>
     </tr>
     <?php $i=1;foreach($purchase as $pur):?>
-        <tr>
+        <?php
+            if($i%2==0){
+                $color='#101016';
+            }
+            else{
+                $color='#000';
+            }
+        ?>
+        <tr style="background-color: <?php echo $color?>">
             <td><?php echo $i;?></td>
             <td><?php echo $pur->purBook->b_title?></td>
             <td><?php echo $pur->pur_quantity?></td>
@@ -52,7 +60,7 @@
             <td><?php $this->widget('PriceDisplayWidget',array('_price'=>$pur->pur_total_price))?></td>
         </tr>
     <?php $i++;endforeach;?>
-        <tr>
+       <tr style="background-color : #003D03 ">
             <td colspan="4">
                 Ongkos kirim
             </td>
@@ -60,7 +68,7 @@
                 <?php $this->widget('PriceDisplayWidget',array('_price'=>$value->bilShippingCharges->sc_cost))?>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color : #003D03 ">
             <td colspan="4">
                 Total
             </td>
@@ -69,4 +77,6 @@
             </td>
         </tr>
 </table>
-<a href="<?php echo $this->createUrl('//book/default/list')?>">Beranda</a>
+<div class="beranda_button">
+    <a href="<?php echo $this->createUrl('//book/default/list')?>">Beranda</a>
+</div>

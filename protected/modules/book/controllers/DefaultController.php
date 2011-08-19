@@ -19,6 +19,7 @@ class DefaultController extends Controller{
                 'detail'=>'application.modules.book.controllers.default.DetailBookAction',
                 'confirm'=>'application.modules.book.controllers.default.ConfirmBookAction',
                 'grouping'=>'application.modules.book.controllers.default.GroupingBookAction',
+                'search'=>'application.modules.book.controllers.default.SearchBookAction',
             );
         }
         else{
@@ -29,6 +30,7 @@ class DefaultController extends Controller{
                 'detail'=>'application.modules.book.controllers.default.DetailBookAction',
                 'confirm'=>'application.modules.book.controllers.default.ConfirmBookAction',
                 'grouping'=>'application.modules.book.controllers.default.GroupingBookAction',
+                'search'=>'application.modules.book.controllers.default.SearchBookAction',
             );
         }
     }

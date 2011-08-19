@@ -52,7 +52,7 @@
 </table>
 <h3>Details :</h3>
 <table>
-    <tr>
+    <tr style="background-color: pink">
         <th>No</th>
         <th>Book Title</th>
         <th>Quantity</th>
@@ -60,29 +60,38 @@
         <th>Total Price</th>
     </tr>
     <?php $i=1;foreach($purchase as $pur):?>
-        <tr>
+        <?php
+            if($i%2==0){
+                $color='#fff';
+            }
+            else{
+                $color='#7FB7D6';
+            }
+        ?>
+        <tr style="background-color: <?php echo $color;?>">
             <td><?php echo $i;?></td>
             <td><?php echo $pur->purBook->b_title?></td>
             <td><?php echo $pur->pur_quantity?></td>
-            <td><?php $this->widget('PriceDisplayWidget',array('_price'=>$pur->purBook->b_price))?></td>
-            <td><?php $this->widget('PriceDisplayWidget',array('_price'=>$pur->pur_total_price))?></td>
+            <td align="right"><?php $this->widget('PriceDisplayWidget',array('_price'=>$pur->purBook->b_price))?></td>
+            <td align="right"><?php $this->widget('PriceDisplayWidget',array('_price'=>$pur->pur_total_price))?></td>
         </tr>
     <?php $i++;endforeach;?>
-        <tr>
+        <tr style="background-color: peachpuff">
             <td colspan="4">
                 Shipping Charges
             </td>
-            <td>
+            <td align="right">
                 <?php $this->widget('PriceDisplayWidget',array('_price'=>$value->bilShippingCharges->sc_cost))?>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: plum">
             <td colspan="4">
                 Total Cost
             </td>
-            <td>
+            <td align="right">
                 <?php $this->widget('PriceDisplayWidget',array('_price'=>$total))?>
             </td>
         </tr>
 </table>
+<br/><br/>
 <a href="<?php echo $this->createUrl('admin/list');?>">Back</a>

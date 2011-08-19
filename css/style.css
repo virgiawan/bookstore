@@ -26,7 +26,6 @@ img {
 	border: none;
 }
 
-
 .cleaner {
 	clear: both;
 	width: 100%;
@@ -49,8 +48,8 @@ img {
 }
 
 .buy_now_button a{
-	margin-left	: 110px;
-	margin-top	: -55px;
+	margin-left: 110px;
+	margin-top: -50px;
 	clear: both;
 	text-align: center;
 	display: block;
@@ -63,21 +62,6 @@ img {
 	text-decoration: none;
 }
 
-.detail_button a{
-	clear: both;
-	margin-left	: 110px;
-	margin-top:-5px;
-	text-align: center;
-	display: block;
-	width: 75px;
-	padding: 4px 0 5px 0;
-	margin-bottom: 10px; 
-	background: url(images/obral_buku_btn_01.jpg) no-repeat;
-	color: #ffffff;
-	font-weight: bold;
-	text-decoration: none;
-}
-
 #obral_buku_container{
 	width: 960px;
 	margin: 0 auto;
@@ -85,38 +69,21 @@ img {
 	background: #1c1c1b url(images/obral_buku_bg.jpg) repeat-y;
 }
 
-/* search */
-#search{
-	margin-left			: 680px;
-	margin-top			: -3px;
-	font-family: Verdana, Arial, san-serif;
+.back_button{
+    background: url(images/templatemo_btn_03.jpg) no-repeat;
+    width: 75px;
+    margin-top : 10px;
+    padding: 5px 0 5px 0;
 }
 
-.button_search, .ya{
-	background-color	: transparent;
-	color				: #FCF88E;
-	font-size			: 12px;
-	font-weight			: bold;
-	border				: none;
-	padding-left		: 10px;
-	padding-right		: 10px;
+.back_button a{
+    color           : #FFF;
+    text-decoration : none;
+    margin-left     : 25px;
 }
 
-.input_search ,.input_subscribe{
-	border				: 1px solid #FCF88E;
-	color				: grey;
-	-moz-border-radius	: 5px 5px 5px 5px;
-}
-/* end of search */
-
-.status_ym{
-	margin-left: 25px;
-	margin-top: 0px;
-}
-
-.book_rate{
-	margin-left : 115px;
-	margin-top : 50px;
+.bac_button a:hover{
+    text-decoration : none;
 }
 
 .button_beli{
@@ -141,47 +108,6 @@ img {
 	color: #cbc750;
 }
 
-.facebook{
-	margin-left:50px;
-	margin-top:-50px;
-	margin-bottom:10px;
-}
-
-.subscribe{
-	margin-left:0px;
-}
-
-.daftar_barang{
-	border-collapse : collapse;
-	color			: #fff;
-}
-
-.daftar_barang b{
-		color			: #CBC750;
-}
-
-.button_lanjut{
-	margin-left	: 590px;
-	clear: both;
-	text-align: center;
-	display: block;
-	width: 75px;
-	padding: 4px 0 5px 0;
-	margin-bottom: 10px; 
-	background: url(images/obral_buku_btn_01.jpg) no-repeat;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-.button_lanjut a{
-	text-decoration:none;
-	color: #cbc750;
-}
-
-.button_lanjut a:hover{
-	color: #cbc750;
-}
-
 /* menu */
 
 #obral_buku_menu {
@@ -203,7 +129,7 @@ img {
 
 #obral_buku_menu ul li a{
 	float: left;
-	padding: 0 20px;
+	padding: 0 10px;
 	font-size: 12px;
 	font-weight: bold;
 	text-align: center;
@@ -274,6 +200,56 @@ img {
 
 
 /* content */
+
+.beranda_button{
+    background: url(images/templatemo_btn_03.jpg) no-repeat;
+    width: 75px;
+    margin-top : 10px;
+    padding: 5px 0 5px 0;
+}
+
+.beranda_button a{
+    margin-left     : 15px;
+    color           : #fff;
+}
+
+.beranda_button a:hover{
+    text-decoration : none;
+}
+
+table{
+    font-family     : Verdana, Arial, san-serif;
+    font-size       : 10pt;
+    margin-bottom   : 10px; 
+    margin-top      : 10px;
+}
+
+.table_link a{
+    color           : #fff;
+}
+
+th{
+    color           : #F9DC00;
+    background-image: url(images/obral_buku_h1_bg.jpg);
+}
+
+input{
+    font-size       : 10pt;
+}
+
+.ym{
+    margin-left: 25px;
+}
+
+#pagging{
+    margin-top : 30px;
+}
+
+#list_book{
+    height          : 650px;    
+    width           : auto;
+}
+
 #obral_buku_content {
 	clear: both;
 	width: 920px;
@@ -326,8 +302,9 @@ img {
 
 
 #obral_buku_detail_book{
+    
     width   : 670px;
-    height  : 210px;
+    height  : auto;
 }
 
 .obral_buku_content_left_section ul {
@@ -379,7 +356,7 @@ img {
 #obral_buku_content_right h3 {
 	padding: 0;
 	margin-left: 110px;
-	margin-top: -160px;
+	margin-top: -110px;
 	font-size: 16px;
 	color: #85391f;
 }
@@ -454,16 +431,16 @@ a{
 /*tooltip*/
 
 #dhtmltooltip{
-				position: absolute;
-				width: 150px;
-				border: 2px solid black;
-				padding: 2px;
-				background-color: lightyellow;
-				visibility: hidden;
-				z-index: 100;
-				/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
-				filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
-			}
+    position: absolute;
+    width: 150px;
+    border: 2px solid black;
+    padding: 2px;
+    background-color: lightyellow;
+    visibility: hidden;
+    z-index: 100;
+    /*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
 			
 #tooltipnya{ padding:10px; font: normal 12px arial; color:#333;   }
 #tooltipnya b {font:bold 1.2em arial; color: brown; /*letter-spacing:-0.03em;*/ }

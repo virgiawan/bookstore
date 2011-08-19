@@ -1,8 +1,8 @@
 <h1>Keranjang Belanja Anda</h1>
-<?php if(Yii::app()->user->getState('role')) echo "Anda telah login"?>
+<b><?php if(Yii::app()->user->getState('role')) echo "Anda telah login"?></b>
 <?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg));?>
 <form action="<?php echo $this->createUrl('default/confirm'); ?>" method="POST" 
-<?php if(Yii::app()->user->getState('role')):?> onSubmit="return confirm('Akhiri Belanja Anda ?')" <?php endif;?>>
+<?php if(Yii::app()->user->getState('role')):?> onSubmit="return confirm('Akhiri belanja Anda ?')" <?php else:?> onSubmit="return confirm('Untuk melakukan konfirmasi barang Anda harus login. Login sekarang?')" <?php endif;?> >
     <table>
         <tr>
             <th>No</th>
@@ -23,8 +23,14 @@
                     $b_title=str_replace("*", " ", $exp[2]);
                     $b_price=$exp[3];
                     $i++;
+                    if($i%2==0){
+                        $color='#101016';
+                    }
+                    else{
+                        $color='#000';
+                    }
                 ?>
-                <tr>
+                <tr style="background-color: <?php echo $color?>">
                     <td><?php echo $i?></td>
                     <td><?php echo $b_id?>
                         <input type="hidden" name="pur_book_id[]" value="<?php echo $b_id?>" />
@@ -40,18 +46,19 @@
                         <?php $b_price=Yii::app()->request->cookies[$key]->value*$b_price;  $this->widget('PriceDisplayWidget',array('_price'=>$b_price));?>
                         <input type="hidden" name="pur_total_price[]" value="<?php echo $b_price;?>" />
                     </td>
-                    <td>
+                    <td class="table_link">
                         <a href="<?php echo $this->createUrl('default/detail',array('bid'=>$b_id))?>">Ubah</a>
                     </td>
-                    <td>
+                    <td class="table_link">
                         <a href="<?php echo $this->createUrl('default/delete',array('cookie_name'=>$cookie_name))?>">Hapus</a>
                     </td>
                 </tr>
             <?php $total=$total+$b_price;endif;?>
         <?php endforeach;?>
-        <tr>
+        <tr style="background-color : #003D03 ">
             <td colspan="4">Total</td>
             <td><?php $this->widget('PriceDisplayWidget',array('_price'=>$total))?></td>
+            <td colspan="2"></td>
         </tr>
         <tr>
             <td colspan="7" align="right">
@@ -60,4 +67,6 @@
         </tr>
     </table>
 </form>
-<a href="javascript:self.history.back();">Back</a>
+<div class="back_button">
+    <a href="javascript:self.history.back();">Back</a>
+</div>

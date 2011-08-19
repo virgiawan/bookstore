@@ -1,0 +1,115 @@
+body{
+    background-color    : #EFEFEF;
+    height              : 100%;
+}
+
+#container{
+        font-family     : Verdana,Arial,Helvetica,sans-serif;
+
+    position        : relative;
+    padding-top     : 0px;
+    height          : auto;
+    width           : 920px;
+    background-color: #fff;
+    margin-top      : 0px; 
+    margin-left     : auto;
+    margin-right    : auto; 
+    font-size       : 9pt;
+    font-family     : verdana; 
+    -moz-box-shadow : 3px 0px 5px 0px #000;
+}
+
+#header{
+    width           : auto;
+    height          : 50px;
+    //background-color: yellow;
+    border-bottom   : 5px solid #4d9ac6; 
+}
+
+
+#header h1{
+    padding-left    : 20px; 
+    padding-top     : 5px; 
+    font-size       : 24pt; 
+    color           : #7fb7d6; 
+
+}
+
+#menu{
+    position        : absolute;
+    margin-top      : 10px;
+    width           : 180px;
+    height          : 300px;
+    margin-left     : 5px;
+    padding-top     : 0px;
+    padding-left    : 5px;
+}
+
+#content{
+    width           : 715px;
+    min-height      : 500px; 
+    margin-left     : 200px;
+    margin-top      : 10px;
+    border-left     : 3px dotted #4d9ac6;
+    padding-left    : 10px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color   : #900; 
+}
+
+a:hover{
+    text-decoration: underline;
+        font-weight: bolder;
+}
+
+#content b{
+    color:red;
+}
+
+#content table{
+    font-family     : Verdana,Arial,Helvetica,sans-serif;
+    font-size       : 10pt;
+}
+
+h2{
+    border-bottom   : 1px dotted #000; 
+    font-size       : 150%; 
+    margin-bottom   : 10px;
+    color           : #4d9ac6;
+    margin-right    : 15px;
+}
+
+.msg{
+    color           : red;
+}
+
+#pagging{
+    margin-top      : 20px;
+}
+
+#content table th{
+    color           : #265180;
+    font-size       : 10pt;
+    text-transform  : capitalize;
+    text-align      : center;
+    border-width    : 1px;
+    border-color    : #969BA5;
+}
+
+#content table td{
+    color           : #000;
+    vertical-align  : top;
+    border-width    : 1px;
+    border-color    : #969BA5;
+    border-collapse : collapse;
+}
+
+#footer{
+    margin-top      : 10px; 
+    padding-top     : 5px;
+    height          : 20px;
+    border-top      : 5px solid #4d9ac6;
+}

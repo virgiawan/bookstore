@@ -2,6 +2,8 @@
 
     class AdminController extends Controller{
         
+        public $layout = 'application.views.layouts.template';
+
         public function init(){
             
         }

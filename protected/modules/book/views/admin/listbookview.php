@@ -1,7 +1,7 @@
 <h2>List Book</h2>
-<?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg));?>
+<b class="msg"><?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg));?></b>
 <table>
-    <tr>
+    <tr style="background-color: pink">
         <th>No</th>
         <th>Title</th>
         <th>Publisher</th>
@@ -13,7 +13,15 @@
         <th>Delete</th>
     </tr>
     <?php $i=1; foreach($value as $vl):?>
-        <tr>
+        <?php
+            if($i%2==0){
+                $color='#fff';
+            }
+            else{
+                $color='#7FB7D6';
+            }
+        ?>
+        <tr style="background-color: <?php echo $color;?>">
             <td><?echo $i;$i++;?></td>
             <td><?php echo $vl->b_title;?></td>
             <td><?php echo $vl->bPublisher->p_publisher;?></td>

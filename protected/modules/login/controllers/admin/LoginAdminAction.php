@@ -9,13 +9,19 @@
                 $login = new LoginForm();
                 $login->attributes = $_POST;
                 if($login->validate()){
-                    echo "valid";
-                    exit();
+                    $login->login();
+                    if(Yii::app()->user->getState('role')=='admin'){
+                        $this->controller->redirect($this->controller->createUrl('//book/admin/list'));
+                    }
+                    else{
+                        Yii::app()->user->logout();
+                        $data['msg'] = 'Incorect username or password';
+                    }
                 }
                 else{
-                    print_r($login->getErrors());
-                    echo "<br>.not valid";
-                    exit();
+                    $msg = $login->getErrors();
+                    Yii::app()->user->setFlash('msg',$msg);
+                    $this->controller->redirect($this->controller->createUrl('//login/admin/login'));
                 }
             }
             $this->controller->render('loginadminview',$data);

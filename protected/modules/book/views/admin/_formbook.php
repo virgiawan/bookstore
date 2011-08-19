@@ -1,4 +1,4 @@
-<?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg));?>
+<b class="msg"><?php $this->widget('ErrorDisplayWidget',array('msg'=>$msg));?></b>
 <form action="" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="bid" value="<?php echo isset($value->b_id)?$value->b_id:"";?>"/>
     <table>
@@ -67,7 +67,7 @@
         <?php if(isset($value->b_image)):?>
             <tr>
                 <td>&nbsp;</td><td>&nbsp;</td>
-                <td><img src="<?php echo Yii::app()->request->baseUrl."/imgbook/resize/".$value->b_image;?>" /></td>
+                <td><img src="<?php echo Yii::app()->request->baseUrl."/imgbook/resize/".$value->b_image;?>"  width="100px" height="150px"/></td>
             </tr>
         <?php endif;?>
         <tr>

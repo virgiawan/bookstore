@@ -16,7 +16,7 @@
                     $pur_quantity=$_POST['pur_quantity'];
                     $pur_total_price=$_POST['pur_total_price'];
                     for($j=0;$j<$i;$j++){
-                        $checkPur = Purchase::model()->findByAttributes(array('pur_book_id'=>$pur_book_id[$j],'pur_member_id'=>$mid,'pur_date'=>date('Y-m-d')));
+                        $checkPur = Purchase::model()->findByAttributes(array('pur_book_id'=>$pur_book_id[$j],'pur_billing_id'=>"",'pur_member_id'=>$mid,'pur_date'=>date('Y-m-d')));
                         if($checkPur!=null){
                             $purId=$checkPur->pur_id;
                             $cookies_id="pur_id_".$purId;

@@ -1,11 +1,7 @@
 <?php
 
     class ChangePasswordAction extends CAction{
-        
-        public function run(){
-            if(Yii::app()->user->getState('role')==null){
-                $this->controller->redirect($this->controller->createUrl('//book/default/list'));
-            }
+         public function run(){
             $mid = Yii::app()->user->getState('id');
             $model = Member::model()->findByPk($mid);
             $data['msg'] = Yii::app()->user->getFlash('msg');
@@ -35,7 +31,6 @@
             }
             $this->controller->render('changepasswordview',$data);
         }
-        
     }
 
 ?>
