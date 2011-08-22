@@ -12,6 +12,7 @@ class DefaultController extends Controller{
         return array(
             'login'=>'application.modules.login.controllers.default.LoginMemberAction',
             'logout'=>'application.modules.login.controllers.default.LogoutMemberAction',
+            'fb_login'=>'application.modules.login.controllers.default.FbLoginMemberAction',
         );
     }
     

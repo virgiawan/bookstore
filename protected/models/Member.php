@@ -9,6 +9,7 @@
  * @property string $m_address
  * @property string $m_email
  * @property string $m_password
+ * @property string $m_token
  * @property integer $m_activation
  *
  * The followings are the available model relations:
@@ -42,25 +43,28 @@ class Member extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('m_name, m_address, m_email, m_password', 'required'),
-                        array('m_email','email'),
+			array('m_name, m_address, m_email, m_password', 'required','on'=>'add' ),
+                        array('m_name, m_address, m_email, m_password', 'required','on'=>'update'),
+                        array('m_name, m_email, m_token', 'required', 'on'=>'fb'),
 			array('m_activation', 'numerical', 'integerOnly'=>true),
 			array('m_name', 'length', 'max'=>50),
 			array('m_address, m_email', 'length', 'max'=>100),
 			array('m_password', 'length', 'max'=>32),
+			array('m_token', 'length', 'max'=>1000),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('m_id, m_name, m_address, m_email, m_password, m_activation', 'safe', 'on'=>'search'),
+			array('m_id, m_name, m_address, m_email, m_password, m_token, m_activation', 'safe', 'on'=>'search'),
 		);
 	}
-        
+
         public function safeAttributes(){
             return array(
                 'add'=>'m_name,m_address,m_email,m_password',
                 'update'=>'m_name,m_address,m_email,m_password',
+                'fb'=>'m_name,m_email,m_token',
             );
         }
-
+        
 	/**
 	 * @return array relational rules.
 	 */
@@ -81,11 +85,12 @@ class Member extends CActiveRecord
 	{
 		return array(
 			'm_id' => 'M',
-			'm_name' => 'Name',
-			'm_address' => 'Address',
-			'm_email' => 'Email',
-			'm_password' => 'Password',
-			'm_activation' => 'Activation',
+			'm_name' => 'M Name',
+			'm_address' => 'M Address',
+			'm_email' => 'M Email',
+			'm_password' => 'M Password',
+			'm_token' => 'M Token',
+			'm_activation' => 'M Activation',
 		);
 	}
 
@@ -105,6 +110,7 @@ class Member extends CActiveRecord
 		$criteria->compare('m_address',$this->m_address,true);
 		$criteria->compare('m_email',$this->m_email,true);
 		$criteria->compare('m_password',$this->m_password,true);
+		$criteria->compare('m_token',$this->m_token,true);
 		$criteria->compare('m_activation',$this->m_activation);
 
 		return new CActiveDataProvider($this, array(

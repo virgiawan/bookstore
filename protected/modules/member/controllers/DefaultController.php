@@ -11,14 +11,14 @@ class DefaultController extends Controller{
     public function actions() {
         if(Yii::app()->user->getState('role')!=null){
             return array(
-                'changepassword'=>'application.modules.member.controllers.default.ChangePasswordAction',
+                'change_password'=>'application.modules.member.controllers.default.ChangePasswordAction',
             );
         }
         else{
             return array(
                 'register'=>'application.modules.member.controllers.default.RegisterMemberAction',
                 'confirm'=>'application.modules.member.controllers.default.RegisterConfirmationAction',
-                'changepassword'=>'application.modules.member.controllers.default.ChangePasswordAction',
+                'change_password'=>'application.modules.member.controllers.default.ChangePasswordAction',
             );
         }
     }

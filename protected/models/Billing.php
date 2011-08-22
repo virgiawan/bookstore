@@ -46,7 +46,7 @@ class Billing extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('bil_key, bil_member_id, bil_address_destination, bil_shipping_charges_id, bil_total_price, bil_message, bil_date', 'required'),
+			array('bil_key, bil_member_id, bil_address_destination, bil_shipping_charges_id, bil_total_price, bil_date', 'required'),
 			array('bil_member_id, bil_shipping_charges_id, bil_total_price, bil_status, bil_shipping_status', 'numerical', 'integerOnly'=>true),
 			array('bil_key', 'length', 'max'=>32),
 			array('bil_address_destination', 'length', 'max'=>200),

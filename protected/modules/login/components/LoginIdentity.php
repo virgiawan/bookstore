@@ -5,9 +5,15 @@
         public function authenticate() {
             $db = Yii::app()->db;
             
-            $sql = "SELECT * FROM bs_member WHERE
-                    m_email='".$this->username."' AND
-                    m_password='".md5($this->password)."'";
+            if($this->password=="fblogin"){
+                $sql = "SELECT * FROM bs_member WHERE
+                        m_email='".$this->username."'";
+            }
+            else{
+                $sql = "SELECT * FROM bs_member WHERE
+                        m_email='".$this->username."' AND
+                        m_password='".md5($this->password)."'";
+            }
             
             $result = $db->createCommand($sql)->queryRow();
             

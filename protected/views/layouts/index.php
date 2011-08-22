@@ -79,9 +79,21 @@
     <?php 
         $module=Yii::app()->controller->module->id;
         $action=Yii::app()->controller->action->id;
-        $change=$book=$buy=$billing=$confirm="";
+        $howtobuy=$shipping=$login=$search=$change=$book=$buy=$billing=$confirm="";
         if($module=='book' && $action=='buy'){
             $buy="current";
+        }
+        else if($module=='howtobuy' && $action=='how_to_buy'){
+            $howtobuy="current";
+        }
+        else if($module=='shipping' && $action=='list'){
+            $shipping="current";
+        }
+        else if($module=='book' && $action=='search'){
+            $search="current";
+        }
+        else if($module=='login' && $action=='login'){
+            $login="current";
         }
         else if($module=='member' && $action=='changepassword'){
             $change="current";
@@ -102,8 +114,9 @@
         <!-- menu -->
         <ul>
             <li><a href="<?php echo $this->createUrl('//book/default/list')?>" class="<?php echo $book?>">Beranda</a></li>
-            <li><a href="form.html">Cara Pembelian</a></li>
-            <li><a href="<?php echo $this->createUrl('//book/default/search')?>">Cari</a></li>
+            <li><a href="<?php echo  $this->createUrl('//howtobuy/default/how_to_buy')?>" class="<?php echo $howtobuy?>">Cara Pembelian</a></li>
+            <li><a href="<?php echo $this->createUrl('//shipping/default/list')?>" class="<?php echo $shipping?>">Ongkos Kirim</a></li>
+            <li><a href="<?php echo $this->createUrl('//book/default/search')?>" class="<?php echo $search?>">Cari</a></li>
             <?php if(Yii::app()->request->cookies['buy']):?>
                 <li><a href="<?php echo $this->createUrl('//book/default/buy')?>" class="<?php echo $buy?>">Keranjang Belanja</a></li>
             <?php endif?>
@@ -112,10 +125,10 @@
             <?php endif?>
             <?php if(Yii::app()->user->getState('role')!=null):?>
                 <li><a href="<?php echo $this->createUrl('//billing/default/list')?>" class="<?php echo $billing?>">Daftar Billing</a></li>
-                <li><a href="<?php echo $this->createUrl('//member/default/changepassword')?>" class="<?php echo $change?>">Ubah Password</a></li>
+                <li><a href="<?php echo $this->createUrl('//member/default/change_password')?>" class="<?php echo $change?>">Ubah Password</a></li>
                 <li><a href="<?php echo $this->createUrl('//login/default/logout')?>">Logout ( <?php echo Yii::app()->user->getState('name')?> )</a></li>
             <?php else:?>
-                <li><a href="<?php echo $this->createUrl('//login/default/login')?>">Login</a></li>
+                <li><a href="<?php echo $this->createUrl('//login/default/login')?>" class="<?php echo $login?>">Login</a></li>
             <?php endif;?>
         </ul>
     </div><!-- end of menu -->
@@ -139,6 +152,19 @@
     
     <div id="obral_buku_content">
         <div id="obral_buku_content_left">
+            <?php
+                $facebook = Yii::app()->facebook->fbInit();
+                $user = $facebook->getUser();
+                $data = $facebook->api('/me');
+                if($user!==0):
+            ?>
+                <div class="obral_buku_content_left_section">
+                    <h1>Login via Facebook</h1>
+                    <img src="https://graph.facebook.com/<?php echo $user?>/picture"/><br/>
+                    Nama : <?php echo $data['name']?><br/>
+                    Lokasi : <?php echo $data['location']['name']?>
+                </div>
+            <?php endif;?>
             <div class="obral_buku_content_left_section">
             	<h1>Kategori</h1>
                 <?php $this->widget('CategoryDisplayWidget')?>

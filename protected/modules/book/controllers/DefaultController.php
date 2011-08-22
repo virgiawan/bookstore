@@ -6,7 +6,7 @@ class DefaultController extends Controller{
     public $defaultAction = 'list';
     
     public function init(){
-        
+        $this->defaultAction = 'list';
     }
 
     public function actions(){

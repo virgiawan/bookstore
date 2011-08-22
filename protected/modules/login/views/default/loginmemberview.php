@@ -24,4 +24,5 @@
         </tr>
     </table>
 </form>
+<p><a href="<?php echo $fblogin?>">Login via Facebook</a></p>
 <b>Buat account, klik di <a href="<?php echo $this->createUrl('//member/default/register')?>">sini</a></b>

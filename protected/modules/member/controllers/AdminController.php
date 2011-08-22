@@ -14,7 +14,7 @@
             }
             return array(
                 'list'=>'application.modules.member.controllers.admin.ListMemberAction',
-                'changepassword'=>'application.modules.member.controllers.admin.ChangePasswordAction',
+                'change_password'=>'application.modules.member.controllers.admin.ChangePasswordAction',
             );
         }
         
