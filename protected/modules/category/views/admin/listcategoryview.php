@@ -19,3 +19,5 @@
         </tr>
     <?php $i++;endforeach;?>
 </table>
+<br>
+<?php $this->widget('CLinkPager',array('pages'=>$pages))?>

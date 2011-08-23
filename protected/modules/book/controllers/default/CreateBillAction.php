@@ -42,6 +42,18 @@
                         $data['value']=$getBil;
                         $data['purchase']=Purchase::model()->with('purBook')->findAllByAttributes(array('pur_billing_id'=>$bilId,'pur_date'=>$date,'pur_billing_id'=>$bilId));
                         $data['msg']=Yii::app()->user->setFlash('msg',$msg);
+                        $facebook = Yii::app()->facebook->fbInit();
+                        $fbUser = $facebook->getUser();
+                        $fbPost = "Melakukan pembelian buku = ";
+                        $i=1;$total=0;
+                        if($fbUser!==0){
+                            foreach($data['purchase'] as $p){
+                                $fbPost .= $i.". ".$p->purBook->b_title." (".$p->pur_quantity." buku) = seharga Rp ".$p->pur_total_price.",00 | ";
+                                $total += $p->pur_total_price;
+                            }
+                            $fbPost .= "Total pembelian = Rp ".$total.",00";
+                            Yii::app()->facebook->postFacebook(Yii::app()->user->getState('id'),$fbPost);
+                        }
                         $this->controller->render('createbillview',$data);
                     }
                     else{

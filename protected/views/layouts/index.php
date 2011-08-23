@@ -155,7 +155,11 @@
             <?php
                 $facebook = Yii::app()->facebook->fbInit();
                 $user = $facebook->getUser();
-                $data = $facebook->api('/me');
+                try{
+                    $data = $facebook->api('/me');
+                }catch(Exception $e){
+                    $e->getTraceAsString();
+                }
                 if($user!==0):
             ?>
                 <div class="obral_buku_content_left_section">

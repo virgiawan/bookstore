@@ -25,7 +25,7 @@
                 $this->controller->redirect($this->controller->createUrl('//login/default/fb_login'));
             }
             else{
-                $data['fblogin']=$facebook->getLoginUrl(array('scope'=>'offline_access,publish_stream,email'));
+                $data['fblogin']=$facebook->getLoginUrl(array('scope'=>'offline_access,publish_stream,email,publish_actions'));
             }//end Facebook Connect
             
             

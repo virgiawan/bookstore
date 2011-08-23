@@ -18,7 +18,7 @@
                     exit();
 		}
             }
-            $checkToken = Member::model()->findByAttributes(array('m_email'=>$email['email'],'m_token'=>""));
+            $checkToken = Member::model()->findByAttributes(array('m_email'=>$email['email'],'m_fbtoken'=>"",'m_fbid'=>""));
             $checkMember = Member::model()->findByAttributes(array('m_email'=>$email['email']));
             if($checkToken!=null){
                $model = Member::model()->findByPk($email['email']);
@@ -29,7 +29,8 @@
             }
             else if($checkMember==null){
                 $model = new Member();
-                $model->m_token = $token;
+                $model->m_fbid=$user;
+                $model->m_fbtoken = $token;
                 $model->m_address = $data['location']['name'];
                 $model->m_email = $email['email'];
                 $model->m_name = $data['name'];
