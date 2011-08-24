@@ -3,7 +3,7 @@
 <form action="" method="POST">
     <table>
         <tr>
-            <td>* Username</td><td>:</td>
+            <td>* Username (Email)</td><td>:</td>
             <td>
                 <input type="text" name="username" />
             </td>

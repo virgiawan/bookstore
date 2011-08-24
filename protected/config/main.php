@@ -46,6 +46,9 @@ return array(
                 'facebook'=>array(
                     'class'=>'application.components.FacebookComponent',
                 ),
+                'email'=>array(
+                    'class'=>'application.components.EmailComponent',
+                ),
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
                         'showScriptName'=>false,

@@ -19,6 +19,7 @@ class DefaultController extends Controller{
                 'register'=>'application.modules.member.controllers.default.RegisterMemberAction',
                 'confirm'=>'application.modules.member.controllers.default.RegisterConfirmationAction',
                 'change_password'=>'application.modules.member.controllers.default.ChangePasswordAction',
+                'activation'=>'application.modules.member.controllers.default.AccountActivationAction',
             );
         }
     }

@@ -11,7 +11,7 @@
             }
             else{
                 $sql = "SELECT * FROM bs_member WHERE
-                        m_email='".$this->username."' AND
+                        m_email='".$this->username."' AND m_activation = 1 AND
                         m_password='".md5($this->password)."'";
             }
             
@@ -19,6 +19,12 @@
             
             if($result!==false){
                 $this->errorCode = 0;
+                if($this->password=="fblogin"){
+                    $this->setState('fblogin','valid');
+                }
+                else{
+                    $this->setState('fblogin','not_valid');
+                }
                 $this->setState('name', $result['m_name']);
                 $this->setState('id', $result['m_id']);
                 if($result['m_id']==1){

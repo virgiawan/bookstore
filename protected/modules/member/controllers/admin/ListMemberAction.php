@@ -5,6 +5,7 @@
         public function run(){
             $criteria = new CDbCriteria();
             $criteria->order = 'm_name ASC';
+            $criteria->condition = 'm_activation = 1';
             $itemCount = Member::model()->count($criteria);
             
             $pages = new CPagination($itemCount);

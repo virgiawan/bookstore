@@ -2627,3 +2627,628 @@ Stack trace:
 #3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
 #4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
 #5 {main} REQUEST_URI=/bookstore/book/default/images/facebook_logo1.jpg
+2011/08/24 07:45:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/rss.png
+2011/08/24 07:45:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/facebook_logo1.jpg
+2011/08/24 08:10:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/rss.png
+2011/08/24 08:10:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/facebook_logo1.jpg
+2011/08/24 08:10:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/rss.png
+2011/08/24 08:10:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/facebook_logo1.jpg
+2011/08/24 08:10:53 [warning] [application] Failed to set unsafe attribute "re_password" of "Member".
+in /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterMemberAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/24 08:11:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/rss.png
+2011/08/24 08:11:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/facebook_logo1.jpg
+2011/08/24 08:13:13 [warning] [application] Failed to set unsafe attribute "re_password" of "Member".
+in /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterMemberAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/24 08:13:14 [error] [php] include(PHPMailer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/opt/lampp/htdocs/bookstore/framework/YiiBase.php:421)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/components/EmailComponent.php(6): spl_autoload_call()
+#1 /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterConfirmationAction.php(13): EmailComponent->emailActivation()
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): RegisterConfirmationAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): RegisterConfirmationAction->runWithParams()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): DefaultController->runAction()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): DefaultController->runActionWithFilters()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): DefaultController->run()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/member/default/confirm/mid/35.html
+in /opt/lampp/htdocs/bookstore/protected/components/EmailComponent.php (6)
+in /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterConfirmationAction.php (13)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/24 08:14:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/rss.png
+2011/08/24 08:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/facebook_logo1.jpg
+2011/08/24 08:18:03 [warning] [application] Failed to set unsafe attribute "re_password" of "Member".
+in /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterMemberAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/24 08:18:03 [error] [php] include(PHPMailer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/opt/lampp/htdocs/bookstore/framework/YiiBase.php:421)
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/protected/components/EmailComponent.php(6): spl_autoload_call()
+#1 /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterConfirmationAction.php(17): EmailComponent->emailActivation()
+#2 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): RegisterConfirmationAction->run()
+#3 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): RegisterConfirmationAction->runWithParams()
+#4 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): DefaultController->runAction()
+#5 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): DefaultController->runActionWithFilters()
+#6 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): DefaultController->run()
+#7 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#8 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/bookstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/bookstore/member/default/confirm/mid/36.html
+in /opt/lampp/htdocs/bookstore/protected/components/EmailComponent.php (6)
+in /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterConfirmationAction.php (17)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/24 08:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/rss.png
+2011/08/24 08:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/facebook_logo1.jpg
+2011/08/24 08:19:19 [warning] [application] Failed to set unsafe attribute "re_password" of "Member".
+in /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterMemberAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/24 08:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/facebook_logo1.jpg
+2011/08/24 08:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/rss.png
+2011/08/24 08:29:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/rss.png
+2011/08/24 08:29:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/facebook_logo1.jpg
+2011/08/24 08:29:17 [warning] [application] Failed to set unsafe attribute "re_password" of "Member".
+in /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterMemberAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/24 08:30:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/facebook_logo1.jpg
+2011/08/24 08:30:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/rss.png
+2011/08/24 08:31:01 [warning] [application] Failed to set unsafe attribute "re_password" of "Member".
+in /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterMemberAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/24 08:34:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/facebook_logo1.jpg
+2011/08/24 08:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/rss.png
+2011/08/24 08:34:30 [warning] [application] Failed to set unsafe attribute "re_password" of "Member".
+in /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterMemberAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/24 08:37:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/rss.png
+2011/08/24 08:37:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/facebook_logo1.jpg
+2011/08/24 08:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/facebook_logo1.jpg
+2011/08/24 08:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/rss.png
+2011/08/24 08:37:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/facebook_logo1.jpg
+2011/08/24 08:37:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/rss.png
+2011/08/24 08:38:06 [warning] [application] Failed to set unsafe attribute "re_password" of "Member".
+in /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterMemberAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/24 08:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/facebook_logo1.jpg
+2011/08/24 08:38:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/rss.png
+2011/08/24 08:40:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/facebook_logo1.jpg
+2011/08/24 08:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/rss.png
+2011/08/24 08:51:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/facebook_logo1.jpg
+2011/08/24 08:51:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/rss.png
+2011/08/24 08:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/rss.png
+2011/08/24 08:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/facebook_logo1.jpg
+2011/08/24 08:51:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/rss.png
+2011/08/24 08:51:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/facebook_logo1.jpg
+2011/08/24 08:51:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/facebook_logo1.jpg
+2011/08/24 08:51:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/rss.png
+2011/08/24 08:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/rss.png
+2011/08/24 08:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/facebook_logo1.jpg
+2011/08/24 08:52:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/rss.png
+2011/08/24 08:52:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('member/default/...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/member/default/images/facebook_logo1.jpg
+2011/08/24 08:52:28 [warning] [application] Failed to set unsafe attribute "re_password" of "Member".
+in /opt/lampp/htdocs/bookstore/protected/modules/member/controllers/default/RegisterMemberAction.php (14)
+in /opt/lampp/htdocs/bookstore/index.php (13)
+2011/08/24 08:52:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/facebook_logo1.jpg
+2011/08/24 08:52:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/rss.png
+2011/08/24 08:53:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/rss.png
+2011/08/24 08:53:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/facebook_logo1.jpg
+2011/08/24 08:53:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/rss.png
+2011/08/24 08:53:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/facebook_logo1.jpg
+2011/08/24 08:53:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/facebook_logo1.jpg
+2011/08/24 08:53:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('login/default/i...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/login/default/images/rss.png
+2011/08/24 08:53:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/rss.png
+2011/08/24 08:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/facebook_logo1.jpg
+2011/08/24 08:54:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/rss.png
+2011/08/24 08:54:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /opt/lampp/htdocs/bookstore/framework/web/CController.php:477
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CController.php(262): CController->missingAction('images')
+#1 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('images')
+#2 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/im...')
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/bookstore/book/default/images/facebook_logo1.jpg
+2011/08/24 09:35:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user '4sum1.net'@'localhost' (using password: YES)' in /opt/lampp/htdocs/bookstore/framework/db/CDbConnection.php:364
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/db/CDbConnection.php(313): CDbConnection->open()
+#1 /opt/lampp/htdocs/bookstore/framework/db/CDbConnection.php(291): CDbConnection->setActive(true)
+#2 /opt/lampp/htdocs/bookstore/framework/base/CModule.php(372): CDbConnection->init()
+#3 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(429): CModule->getComponent('db')
+#4 /opt/lampp/htdocs/bookstore/framework/db/ar/CActiveRecord.php(609): CApplication->getDb()
+#5 /opt/lampp/htdocs/bookstore/framework/db/ar/CActiveRecord.php(2275): CActiveRecord->getDbConnection()
+#6 /opt/lampp/htdocs/bookstore/framework/db/ar/CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Book))
+#7 /opt/lampp/htdocs/bookstore/protected/models/Book.php(31): CActiveRecord::model('Book')
+#8 /opt/lampp/htdocs/bookstore/protected/modules/book/controllers/default/ListBookAction.php(10): Book::model()
+#9 /opt/lampp/htdocs/bookstore/framework/web/actions/CAction.php(72): ListBookAction->run()
+#10 /opt/lampp/htdocs/bookstore/framework/web/CController.php(300): CAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/bookstore/framework/web/CController.php(278): CController->runAction(Object(ListBookAction))
+#12 /opt/lampp/htdocs/bookstore/framework/web/CController.php(257): CController->runActionWithFilters(Object(ListBookAction), Array)
+#13 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(277): CController->run('list')
+#14 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('book/default/li...')
+#15 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/bookstore/book/default/list.html
+2011/08/24 09:46:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:46:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:47:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:47:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:47:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:47:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:47:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:47:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:47:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:47:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:47:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:47:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:48:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:48:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css
+2011/08/24 09:57:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/pager.css".' in /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /opt/lampp/htdocs/bookstore/framework/web/CWebApplication.php(136): CWebApplication->runController('css/pager.css')
+#1 /opt/lampp/htdocs/bookstore/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/bookstore/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/bookstore/css/pager.css

@@ -124,8 +124,10 @@
                 <li><a href="<?php echo $this->createUrl('//book/default/confirm')?>" class="<?php echo $confirm?>">Konfirmasi Pembayaran</a></li>
             <?php endif?>
             <?php if(Yii::app()->user->getState('role')!=null):?>
-                <li><a href="<?php echo $this->createUrl('//billing/default/list')?>" class="<?php echo $billing?>">Daftar Billing</a></li>
-                <li><a href="<?php echo $this->createUrl('//member/default/change_password')?>" class="<?php echo $change?>">Ubah Password</a></li>
+                <li><a href="<?php echo $this->createUrl('//billing/deYfault/list')?>" class="<?php echo $billing?>">Daftar Billing</a></li>
+                <?php if(Yii::app()->user->getState('fblogin')=='not_valid'):?>
+                    <li><a href="<?php echo $this->createUrl('//member/default/change_password')?>" class="<?php echo $change?>">Ubah Password</a></li>
+                <?php endif;?>
                 <li><a href="<?php echo $this->createUrl('//login/default/logout')?>">Logout ( <?php echo Yii::app()->user->getState('name')?> )</a></li>
             <?php else:?>
                 <li><a href="<?php echo $this->createUrl('//login/default/login')?>" class="<?php echo $login?>">Login</a></li>
@@ -135,18 +137,10 @@
     
     <div id="obral_buku_header">
     	<div id="obral_buku_special_offers">
-           <!-- <p>
-            Kami berikan diskon sebesar <span>25%</span> selama bulan ini.
-            </p>
-            <a href="subpage.html" style="margin-left: 50px;">Selengkapnya..</a>-->
+           Tidak ada promo
         </div>
         <div id="obral_buku_new_books">
-            <!--<ul>
-                <li>Cara Menjadi Pebisnis Sukses dalam 24 Jam</li>
-                <li>100 Cara Membuat Bisnis Pecel Lele Anda Laris</li>
-                <li>Indahnya Kebersamaan</li>
-            </ul>-->
-            <a href="subpage.html" style="margin-left: 50px;">Selengkapnya...</a>
+            <?php $this->widget('BestSellerWidget')?>
         </div>
     </div> <!-- end of header -->
     
@@ -182,8 +176,7 @@
                 <a href="ymsgr:sendIM?hilex_co&m=Hello"><img class="ym" src="http://opi.yahoo.com/online?u=hilex_co&t=14" border="0" /></a>
             </div>
             <div class="obral_buku_content_left_section">                
-                <img src="images/rss.png" width="45" height="45" alt="image" width="186"/>
-                <img class="facebook" src="images/facebook_logo1.jpg" alt="image" width="130"/>
+                <a href="http://www.facebook.com/apps/application.php?id=139902336101090&sk=wall" target="blank"><img class="facebook" src="<?php echo Yii::app()->request->baseUrl?>/images/facebook_logo1.jpg" alt="image" width="130"/></a>
             </div>
         </div> <!-- end of content left -->
         <div id="obral_buku_content_right">
@@ -192,20 +185,24 @@
         <div class="cleaner_with_height">&nbsp;</div>
     </div> <!-- end of content -->
     <div id="obral_buku_footer">
-        <a href="<?php echo $this->createUrl('//book/default/list')?>">Beranda</a> | 
-        <a href="form.html">Cara Pembelian</a> | 
+        <a href="<?php echo $this->createUrl('//book/default/list')?>" class="<?php echo $book?>">Beranda</a> | 
+        <a href="<?php echo  $this->createUrl('//howtobuy/default/how_to_buy')?>" class="<?php echo $howtobuy?>">Cara Pembelian</a> | 
+        <a href="<?php echo $this->createUrl('//shipping/default/list')?>" class="<?php echo $shipping?>">Ongkos Kirim</a> | 
+        <a href="<?php echo $this->createUrl('//book/default/search')?>" class="<?php echo $search?>">Cari</a> | 
         <?php if(Yii::app()->request->cookies['buy']):?>
-            <a href="<?php echo $this->createUrl('//book/default/buy')?>">Keranjang Belanja</a> | 
+            <a href="<?php echo $this->createUrl('//book/default/buy')?>" class="<?php echo $buy?>">Keranjang Belanja</a> | 
         <?php endif?>
-        <?php if(Yii::app()->request->cookies['confirm']):?>
-            <a href="<?php echo $this->createUrl('//book/default/confirm')?>">Konfirmasi Pembayaran</a> | 
+         <?php if(Yii::app()->request->cookies['confirm']!=null && Yii::app()->request->cookies['buy']==null):?>
+            <a href="<?php echo $this->createUrl('//book/default/confirm')?>" class="<?php echo $confirm?>">Konfirmasi Pembayaran</a> | 
         <?php endif?>
         <?php if(Yii::app()->user->getState('role')!=null):?>
-            <a href="<?php echo $this->createUrl('//billing/default/list')?>">Daftar Billing</a> | 
-            <a href="<?php echo $this->createUrl('//member/default/changepassword')?>">Ubah Password</a> | 
-            <a href="<?php echo $this->createUrl('//login/default/logout')?>">Logout ( <?php echo Yii::app()->user->getState('name')?> )</a>
+            <a href="<?php echo $this->createUrl('//billing/default/list')?>" class="<?php echo $billing?>">Daftar Billing</a> | 
+            <?php if(Yii::app()->user->getState('fblogin')=='not_valid'):?>
+                <a href="<?php echo $this->createUrl('//member/default/change_password')?>" class="<?php echo $change?>">Ubah Password</a> | 
+            <?php endif;?>
+            <a href="<?php echo $this->createUrl('//login/default/logout')?>">Logout ( <?php echo Yii::app()->user->getState('name')?> )</a> | 
         <?php else:?>
-            <a href="<?php echo $this->createUrl('//login/default/login')?>">Login</a>
+            <a href="<?php echo $this->createUrl('//login/default/login')?>" class="<?php echo $login?>">Login</a> 
         <?php endif;?>
         <br/>Copyright © 2011 <a href="#"><strong>Obral Buku</strong></a>
     </div><!-- end of footer -->
